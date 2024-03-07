@@ -18,7 +18,7 @@ This repository contains the training materials and other relevant documents for
 |Week|Date|Topic|Link to content|
 |---|---|---|---|
 |Week 10|7.3.|Team member introductions, competition in detail|[Link](Training/01-kickoff/README.md)|  
-|Week 13|TBD|Supercomputer usage, batch job systems and modules||  
+|Week 13|25.3.|Supercomputer usage, batch job systems and modules||  
 |Week 16|TBD|Parallel programming, compiling C++/Fortran||  
 
 ## Official SCC links

@@ -1,6 +1,6 @@
 # SCC Kickoff meeting
 
-Date: 07.03.2024
+Date: 07.03.2024  
 Slides: [Link](./slides)
 
 ## Schedule
