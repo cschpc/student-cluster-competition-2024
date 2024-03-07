@@ -1,7 +1,7 @@
 # SCC Kickoff meeting
 
 Date: 07.03.2024
-Slides: (Link)[./slides]
+Slides: [Link](./slides)
 
 ## Schedule
 
@@ -17,10 +17,8 @@ Slides: (Link)[./slides]
 
 1. Go to [https://my.csc.fi/](https://my.csc.fi/)
 2. Choose HAKA login and use your University login information
-3. Fill up your user inormation at the registration site and choose a strong password for your user
-4. Wait for a confirmation to be sent to your University email
-5. Send your username to jussi.heikonen@gmail.com
-
+3. Fill up your user information at the registration site and choose a strong password for your user
+4. Wait for a confirmation to be sent to your University email 
 
 ## Practicalities to discuss
 
@@ -29,6 +27,9 @@ Slides: (Link)[./slides]
 - What weekdays to meet, planning the next meeting
 - Communication platform (Discord, Slack,..)
 
+## Creating a local SSH key
+
+Follow the instructions at [https://docs.csc.fi/computing/connecting/#generating-an-ssh-key-pair​](https://docs.csc.fi/computing/connecting/#generating-an-ssh-key-pair​).  
 
 ## Homework
 
