@@ -36,3 +36,4 @@ Follow the instructions at [https://docs.csc.fi/computing/connecting/#generating
 1. Add your own information to our GitHub, into the `Proposal/members.md` file, following the example
 2. Read through the [Elements of Supercomputing](https://edukamu.fi/elements-of-supercomputing) course if you haven't yet done so
 3. (Optional) If you want to refresh your Linux skills, get acquainted with some of the basics through a CSC-provided [Linux basics Tutorial](https://docs.csc.fi/support/tutorials/env-guide/) (Chapters "Using Linux in command-line" and "Editing text and viewing images")
+4. (Optional) Good [git tutorial](https://coderefinery.github.io/git-intro/)
