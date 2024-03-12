@@ -1,17 +1,33 @@
 # SCC Kickoff meeting
 
-Date: 07.03.2024  
+Date: 07.03.2024 and 19.03.2024  
 Slides: [Link](./slides)
 
 ## Schedule
+
+<table>
+<tr><th>SCC Kickoff 7.3. </th><th>ISC Kickoff 19.3.</th></tr>
+<tr><td>
 
 |Time|Topic|
 |---|---|
 |14:00|Creating a user through MyCSC|
 |14:15|Student cluster competition in detail, introductions|
 |15:00|Coffee break|
-|15:15|CSC Computing environment and basics of supercomputing|
+|15:15|Basics of supercomputing|
 |16:00|Logging into Mahti|
+
+</td><td>
+
+|Time|Topic|
+|---|---|
+|13:00|Creating a user through MyCSC|
+|13:15|Student cluster competition in detail, introductions|
+|14:00|Coffee break|
+|14:15|Basics of supercomputing|
+|15:00|Logging into Mahti|
+
+</td></tr> </table>
 
 ## First and foremost: Creating a user through MyCSC
 
