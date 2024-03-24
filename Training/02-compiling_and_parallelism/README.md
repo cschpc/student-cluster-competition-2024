@@ -16,7 +16,7 @@ Slides: [Link](./slides)
 
 ## Demos and exercises
 
-Open the exercises folder: [exercises](./exercises/)
+Demos during today's training can be found in the exercises folder: [exercises](./exercises/)
 
 ## Practicalities to discuss
 
@@ -32,7 +32,7 @@ Open the exercises folder: [exercises](./exercises/)
 The exercises should be run in Mahti.
 
 1. Running a code in Mahti
-    1. Compile the code that's included in this folder
+    1. Compile the code that's included in the "deliverables" folder ([mpi_example.cpp](deliverables/mpi_example.cpp))
     2. Run it in Mahti using Slurm with just one MPI process
     3. Run the code with 16 processes and take a screenshot of the output or copy the results
 2. Documenting the results
