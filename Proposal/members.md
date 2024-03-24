@@ -40,3 +40,13 @@
   - Age: 22
   - Reasons for wanting to participate in the competition: getting to know new friends, playing with top-tier hardware
   - Computational science experience: Homelabbing, running all sorts of linux based services
+
+# Camilla Kontto
+  - Title: Ms.
+  - Name: Camilla Kontto
+  - Email: camilla.kontto@helsinki.fi
+  - University: University of Helsinki
+  - Department: Faculty of Biological and Environmental Sciences
+  - Age: 20
+  - HPC will be important to my future career in regards of analysing biological data. A genome sequence can be millions of base pairs long and will need a lot of      computing power in order to be cleaned, aligned and analyzed.
+  - I have used CSC's supercomputers Mahti and Puhti but my experience is not very broad. I have some experience on linear algebra and matrices as well.
