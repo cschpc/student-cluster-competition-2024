@@ -7,6 +7,7 @@ Training/02-compiling_and_parallelism/deliverables/*
 !Training/02-compiling_and_parallelism/exercises/compiling/README.md
 !Training/02-compiling_and_parallelism/exercises/linking/README.md
 !Training/02-compiling_and_parallelism/exercises/using_make/README.md
+!Training/02-compiling_and_parallelism/exercises/linking/basic_dependency.c
 
 # Allow homework exercise changes
 !Training/02-compiling_and_parallelism/deliverables/mpi_example.cpp
