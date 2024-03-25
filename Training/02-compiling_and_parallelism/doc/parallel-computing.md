@@ -6,14 +6,24 @@ lang:   en
 
 # Parallel computing concepts {.section}
 
+# Supercomputer anatomy
+
+![](img/lumi.png){.center width=50%}
+
 # Computing in parallel
 
 - Parallel computing
     - A problem is split into smaller subtasks
-    - Multiple subtasks are processed simultaneously using multiple cores
+    - Multiple subtasks are processed simultaneously using multiple cores/GPUs
 
+<br>
+<div class=column>
 <!-- Copyright CSC -->
- ![](img/compp.svg){.center width=40%}
+ ![](img/compp.svg){.center width=80%}
+</div>
+<div class=column>
+![](img/anatomy.svg){.center width=90%}
+</div>
 
 # Types of parallel problems
 
