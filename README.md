@@ -29,7 +29,7 @@ This repository contains the training materials and other relevant documents for
 |---|---|---|---|
 |Week 10|7.3.|Team member introductions, competition in detail|[Link](Training/01-kickoff/README.md)|  
 |Week 13|25.3.|Compiling C++/Fortran, batch job systems and modules|[Link](/Training/02-compiling_and_parallelism/)|  
-|Week 16|TBD|Multithreading, compilation continued||  
+|Week 16|TBD|Multithreading with OpenMP, compilation continued||  
 
 ## Official SCC links
 
