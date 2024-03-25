@@ -48,5 +48,15 @@
   - University: University of Helsinki
   - Department: Faculty of Biological and Environmental Sciences
   - Age: 20
-  - HPC will be important to my future career in regards of analysing biological data. A genome sequence can be millions of base pairs long and will need a lot of      computing power in order to be cleaned, aligned and analyzed.
+  - HPC will be important to my future career in regards of analysing biological data. A genome sequence can be millions of base pairs long and will need a lot of computing power in order to be cleaned, aligned and analyzed.
   - I have used CSC's supercomputers Mahti and Puhti but my experience is not very broad. I have some experience on linear algebra and matrices as well.
+
+# Sara Vakkilainen
+  - Title: Ms.
+  - Name: Sara Vakkilainen
+  - Email: sara.vakkilainen@helsinki.fi
+  - University: University of Helsinki
+  - Department: Faculty of Biological and Environmental Sciences
+  - Age: 21
+  - Reasons for participating: I'm going towards a master's in bioinformatics so this competition will provide me with excellent background knowledge in HPC. Also looking to make connections in the field, as well as friends :)
+  - I've used Mahti and Puhti supercomputers in a few basic bioinformatics courses. I've completed a programming basics course in Pyhton as well as basic studies (perusopinnot) of mathematics, including linear algebra and matrices.
