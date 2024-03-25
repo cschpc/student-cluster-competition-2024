@@ -1,6 +1,6 @@
 # SCC Training 02
 
-Date: 25.03.2024 
+Date: 25.03.2024  
 Slides: [Link](./slides)
 
 ## Schedule

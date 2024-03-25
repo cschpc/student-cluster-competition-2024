@@ -18,5 +18,5 @@ srun my_exe
 ```
 
 1. Compiling exercise: [compiling](./compiling)  
-2. Linking exercise: [linking](./linking)
+2. Linking exercises: [linking](./linking)
 3. Makefiles: [using_make](./using_make)
