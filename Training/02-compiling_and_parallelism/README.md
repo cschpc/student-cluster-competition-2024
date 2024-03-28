@@ -32,7 +32,7 @@ Demos during today's training can be found in the exercises folder: [exercises](
 In this exercise you should build a simple three dimensional heat equation solver,
 and investigate its scalability in Mahti.
 
-1. Download the codew with `git clone` under your personal scratch space:
+1. Download the code with `git clone` under your personal scratch space:
 ```
 git clone https://github.com/cschpc/heat-equation.git
 ```
@@ -41,13 +41,13 @@ git clone https://github.com/cschpc/heat-equation.git
 cd heat-equation/3d/mpi
 ```
 3. Investigate the Makefile (however, for this exercise you do **not** need to edit it) and build the code with the `make` command
-4. Run the resulting binary `heat_mpi` via Slurm using 1, 2, and 4 nodes (using always 128 tasks per node)
-5. Build the code then with the Clang compiler, by first loading the `aocc` module, and then rebuilding. Note that in order to rebuild, you need to either clean the previous GNU build (`make clean; make`) or force rebuilding everything the `-B` flag for `make` (`make -B`). 
-  - You may want to save the previous binary by copying it to a different filename before rebuilding. 
-  - Run also the Clang build binary with 1, 2, and 4 nodes.
+4. Run the resulting binary `heat_mpi` via Slurm using 1, 2, and 4 nodes (using always 128 tasks per node). With one node, the running time should be less than one minute.
+5. Build the code then with the Clang compiler, by first loading the `aocc` module, and then rebuilding. Note that in order to rebuild, you need to either clean the previous GNU build (`make clean; make`) or force rebuilding everything with the `-B` flag for `make` (`make -B`). 
+   - You may want to save the previous binary by copying it to a different filename before rebuilding. 
+   - Run also the binary build with the Clang compiler using 1, 2, and 4 nodes.
 
 6. Documenting the results
-    1. Create a directory into the "deliverables" folder with your name
-    2. Save the Slurm batch job file that you used into that folder
-    3. Save the outputs of your runs also in that folder
-    4. Describe shortly your findings about the scalability and performance with different compilers in a text file in the folder
+   1. Create a directory into the "deliverables" folder with your name
+   2. Save the Slurm batch job file that you used into that folder
+   3. Save the outputs of your runs also in that folder
+   4. Describe shortly your findings about the scalability and performance with different compilers in a text file in the folder
