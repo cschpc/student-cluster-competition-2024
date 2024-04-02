@@ -28,8 +28,9 @@ This repository contains the training materials and other relevant documents for
 |Week|Date|Topic|Link to content|
 |---|---|---|---|
 |Week 10|7.3.|Team member introductions, competition in detail|[Link](Training/01-kickoff/README.md)|  
-|Week 13|25.3.|Compiling C++/Fortran, batch job systems and modules|[Link](/Training/02-compiling_and_parallelism/)|  
-|Week 16|TBD|Multithreading with OpenMP, compilation continued||  
+|Week 13|25.3.|Compiling C++/Fortran, batch job systems and modules|[Link](Training/02-compiling_and_parallelism/)|  
+|Week 17|26.4.|Multithreading with OpenMP, Make systems and HPL|[Link](Training/03-threading_and_hpl)|  
+|Week 20|TBD|Cloud computing, HPCG||
 
 ## Official SCC links
 
