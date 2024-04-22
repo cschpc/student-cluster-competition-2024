@@ -60,3 +60,13 @@
   - Age: 21
   - Reasons for participating: I'm going towards a master's in bioinformatics so this competition will provide me with excellent background knowledge in HPC. Also looking to make connections in the field, as well as friends :)
   - I've used Mahti and Puhti supercomputers in a few basic bioinformatics courses. I've completed a programming basics course in Pyhton as well as basic studies (perusopinnot) of mathematics, including linear algebra and matrices.
+
+# Matteo Murdaca
+  - Title: Mr
+  - Name: Matteo Murdaca
+  - Email: matteo.murdaca@aalto.fi
+  - University: Aalto University
+  - Department: Department of Applied Physics
+  - Age: 21
+  - Reasons for wanting to participate in the competition: I've always been interested in HPC and I think it might be highly valuable for my future career in physics.
+  - Computational science experience: I have very basic experience on HPC, I've studied basics of programming and DSA and I've studied basics of C/C++.
