@@ -1,6 +1,5 @@
 # Ignore exercise folder contents
 Training/02-compiling_and_parallelism/exercises/**/*
-Training/02-compiling_and_parallelism/deliverables/*
 
 # Allow README changes
 !Training/02-compiling_and_parallelism/exercises/README.md
