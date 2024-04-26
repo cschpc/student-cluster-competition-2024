@@ -1,0 +1,9 @@
+Simulation parameters: height: 800 width: 800 length: 800 time steps: 500
+Number of MPI tasks: 256 (8 x 8 x 4)
+Both MPI_DATATYPES and MPI_NEIGHBORHOOD defined; using isend/irecv with datatypes in communication
+Average temperature at start: 63.836557
+Iteration took 11.554634 seconds.
+  MPI           8.819746 s.
+  Compute       2.734458 s.
+Average temperature: 63.834223
+Reference value with default arguments: 63.834223
