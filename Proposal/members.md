@@ -70,3 +70,13 @@
   - Age: 21
   - Reasons for wanting to participate in the competition: I've always been interested in HPC and I think it might be highly valuable for my future career in physics.
   - Computational science experience: I have very basic experience on HPC, I've studied basics of programming and DSA and I've studied basics of C/C++.
+
+# Santeri Toivonen
+  - Title Mr.
+  - Santeri, Toivonen
+  - Email: arktinenkarpalo@gmail.com
+  - University/College/High School: University of Helsinki
+  - Department: Computer Science
+  - Age: 24
+  - How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition: To learn more about the field of hpc in both the more practical side but also to gain information about the possible future opportunities available. To have fun network etc. all other generic stuff.
+  - List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software): Using slurm cluster of the university for running experiments while working as a research assistant.
