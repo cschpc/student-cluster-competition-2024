@@ -27,6 +27,9 @@ srun my_exe
 
 ![HPL performance on Mahti](./Performance_vs_process_count.png)
 
+I used Google sheets to visualize the data.  
+You can find the data here: [https://docs.google.com/spreadsheets/mahti](https://docs.google.com/spreadsheets/d/1v5wKy8dDQDQHxjs8l7TT2iuvjcW-yq6xLzE_D7sjC1E/edit?usp=sharing)
+
 4. The HPL.dat file I used for my best run was the following:
 
 ```
