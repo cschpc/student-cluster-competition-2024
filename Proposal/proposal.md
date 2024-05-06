@@ -1,5 +1,11 @@
 # SCC23 proposal
 
+## Add section for institutional diversity
+
+The body that is providing the training and funding for the team, CSC, is a scientific computing center in Finland.
+
+CSC promotes non-discrimination, equality and diversity in its work community and to support this it has an equality plan that is based on the local legislation. The plan specifies the objectives set for the promotion of non-discrimination and equality and provides for their implementation, responsible persons, resources, follow-up and informing on them.
+
 ## Strength of Team
 
 The current team Löyly (which translates to "Sauna heat") is a direct continuation of our previous efforts, team Revontuli (best HPL and third place in IndySCC 2022) and team Norppa (second place in IndySCC 2023). The team is coordinated and managed by CSC, which is the national supercomputing center of Finland and the host of the Top500 #5 LUMI pre-exascale supercomputer.
