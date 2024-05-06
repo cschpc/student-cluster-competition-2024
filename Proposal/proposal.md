@@ -18,11 +18,10 @@ The advisor, Dr. Jussi Enkovaara has background in computational physics and has
 
 Our approach was to maximize the number of applications so that we could then form a diverse team. CSC made an open call for applications to two universities, Aalto University and University of Helsinki. Flyers were distributed to the universities, and the relevant professors and lecturers were contacted. Advertisements were sent to student union mailing lists. Diversity of applicants was emphasized in all of the advertisement materials. 
 
-Generally, being a supercomputing center and not a university we once more found it quite challenging to reach the "target audience" because the BSc level students are not yet that closely associated to research groups and professors with which we are collaborating.
+There's diversity in our academic background; we have students in different disciplines, ranging from computer science to applied physics and biology.
 
-Large majority of students in the fields related to computational sciences in Finland are male, and there are very few students from ethnic minorities. In the end, we are very fortunate to have three female members in the Team Norppa.
-
-TODO: There is also diversity in the academic interests of the team members: two study computer science and four study physics. The physics students are aiming to specialize in various fields such as materials science, numerical relativity, and computational biophysics.
+In Team Löyly and at CSC, we try to promote equality for applicants regarding gender, ethnic background and other factors to promote a more diverse and equal field in HPC for all students. 
+We are happy to have a team together that consists of 3 male students and 3 female students. (+ Info about diversity in nationalities?)
 
 
 ## Strength of Hardware and Software Approach
@@ -47,6 +46,7 @@ We are collaborating with HPE who is also the vendor for the LUMI supercomputer,
 Additionally, HPE will cover the traveling costs for the team and will provide training regarding system administration. Moreover, HPE will provide training to the team regarding tuning the hardware, throttling the GPUs not to consume more electricity than the expected power cap, system initialization, and also tricks and tips about system reboot after shutdown.
 
 ## Team Preparation
+
 With Team Löyly we follow the same successful approach as in 2022 and in 2023. Accordingly, we have been preparing for the competition with dedicated training sessions with hands-on exercises every third week, since February 2024. In addition to these, the team has been given homework assigments. 
 
 The training topics include:
@@ -81,4 +81,4 @@ Sara Vakkilainen: I'm going towards a master's in bioinformatics so this competi
 
 Matteo Murdaca: I've always been interested in HPC and I think it might be highly valuable for my future career in physics. I have very basic experience on HPC, I've studied basics of programming and DSA and I've studied basics of C/C++.
 
-As CSC is not a university it cannot grant study credits. However, the members are keeping study logs and based on these and the curriculum CSC together with a professor from the University of Helsinki will write a statement recommending a number of credits. Previously, these recommendations have been accepted.
+Based on a successful approach in prior years, CSC will write a recommendation of study credits for the students based on the time that they spend working and preparing for SCC. In prior years these have been accepted at the Universities with no issues.
