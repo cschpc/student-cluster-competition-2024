@@ -1,4 +1,4 @@
-# SCC23 proposal
+# SCC24 proposal
 
 ## Institutional diversity
 
@@ -27,6 +27,7 @@ Our approach was to maximize the number of applications so that we could then fo
 In Team Löyly and at CSC, we try to promote equality for applicants regarding gender, ethnic background and other factors to promote a more diverse and equal field in HPC for all students. 
 We are happy to have a team together that consists of 3 male students and 3 female students. (+ Info about diversity in nationalities?)
 
+As not all the members speak Finnish, the working language of the team is English.
 
 ## Strength of Hardware and Software Approach
 
@@ -46,7 +47,7 @@ During the competition the team will use scripts prepared in advance to manage t
 
 We are collaborating with HPE who is also the vendor for the LUMI supercomputer, so we have a very close relationship with them. HPE will provide the team with two systems: one for the training period (located at HPE Grenoble and accessed remotely) and the competition system that will be available in June and eventually shipped to SC. The systems have similar architectures and, most importantly, the same GPUs and identical software stacks. This allows the team to work on the remote system to the last minute, and avoid possible international shipping problems.
 
-HPE will provide training to the team regarding tuning the hardware, throttling the GPUs not to consume more electricity than the expected power cap, system initialization, system administration and also information about rebooting the system after shutdowns (e.g in case of an unexpected blackout).  
+HPE will provide training to the team regarding tuning the hardware, power management of the cluster, system initialization, system administration and also information about rebooting the system after shutdowns (e.g in case of an unexpected blackout).  
 Additionally, we have a close relationship with AMD, and will be in contact with them about any sort of final tuning and information about getting the most out of the GPUs and CPUs in our use.
 
 Our main vendor partner, HPE, will cover the traveling costs for the team and will assist the team in assembling the system at the start of the conference. 
