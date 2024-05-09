@@ -4,47 +4,48 @@
 
 |Process count|N value|NB value|
 |---|---|---|
-|1|1280|128|
-|4|5120|128|
-|16|10240|128|
-|128|20080|128|
+|1|13272|2|
+|16|53088|64|
+|64|106112|128|
+|128|165760|256|
 
 2. My Slurm script was the following:
 
 ```
 #!/bin/bash
 #SBATCH --account=project_2009905
-#SBATCH --job-name=leopekkas_job
-#SBATCH --time=0:05:00
+#SBATCH --job-name=HPL_KIM
+#SBATCH --time=0:59:00
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=X
+#SBATCH --ntasks-per-node=128
+#SBATCH --cpus-per-task=1
 #SBATCH --partition=test
 
-srun my_exe
+srun xhpl
 ```
 
 3. Performance from HPL visualized
 
-![HPL performance on Mahti](./Performance_vs_process_count.png)
+![HPL performance on Mahti](./HPL_Performance.png)
 
 I used Google sheets to visualize the data.  
-You can find the data here: [https://docs.google.com/spreadsheets/mahti](https://docs.google.com/spreadsheets/d/1v5wKy8dDQDQHxjs8l7TT2iuvjcW-yq6xLzE_D7sjC1E/edit?usp=sharing)
+You can find the data here: [googlesheets/HPL_Performance](https://docs.google.com/spreadsheets/d/1eeil4SyN2jLQ-t8ZYf_w5zSZ8Az3vGcQNg2U5A87KBI/edit?usp=sharing)
 
 4. The HPL.dat file I used for my best run was the following:
 
 ```
 HPLinpack benchmark input file
 Innovative Computing Laboratory, University of Tennessee
-HPL.out      output file name (if any)
+HPL.out      output file name (if any) 
 6            device out (6=stdout,7=stderr,file)
 1            # of problems sizes (N)
-5040         Ns
+165760       Ns
 1            # of NBs
-128          NBs
+256          NBs
 0            PMAP process mapping (0=Row-,1=Column-major)
 1            # of process grids (P x Q)
-1            Ps
-128          Qs
+16           Ps
+8            Qs
 16.0         threshold
 1            # of panel fact
 2            PFACTs (0=left, 1=Crout, 2=Right)
