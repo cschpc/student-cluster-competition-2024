@@ -14,7 +14,7 @@ Even though all the team members are first-timers, we have retained the successf
 
 As a computing center CSC does not have a student program, so students were recruited from two universities in the Helsinki metropolitan area: Aalto University and the University of Helsinki. CSC set up an open call for the competition and selected the students based on interviews from the most promising candidates. In the selection technical skills, motivation to learn HPC, and team working skills were emphasized. 
 
-Team members come from variety of scientific areas, i.e. physics, computer science, and biological and environmental sciences. Some team members have previous HPC experience from work as summer trainees at their university's research groups and university courses, and all have good Linux skills in generals. Overall, the team possesses a range of interdisciplinary skills from domain sciences and computer science to HPC programming with OpenMP, MPI and CUDA, data analysis, and Linux server administration. All team members are very interested in HPC, and are highly motivated to learn more. 
+Team members come from variety of scientific areas, i.e. physics, computer science, and biological and environmental sciences. Some team members have previous HPC experience from work as summer trainees at their university's research groups and university courses, and all have good Linux skills in general. Overall, the team possesses a range of interdisciplinary skills from domain sciences and computer science to HPC programming with OpenMP, MPI and CUDA, data analysis, and Linux server administration. All team members are very interested in HPC, and are highly motivated to learn more. 
 
 As the importance of HPC is increasing in a multitude of scientific disciplines, the competition is very likely to benefit the participants in whatever their exact academic path will turn out to be. 
 
@@ -78,7 +78,7 @@ The team will also benefit from Mr. Saraste's experience from the 2022 IndySCC r
 
 Each team member has a set of goals that they describe below.
 
-Kim Takala: HPC is a big area of intereset for me and something I want to learn more about. I am also hopeful that this might lead to a career in the field. I have no experience with HPC prior to this, but I'm eager to learn more. I have experience in the theory of computational science in the form of two courses on data structures and algorithms using python. Along with some experience in the theory of scheduling and threading, as well as a course on linear algebra and matrices.
+Kim Takala: HPC is a big area of interest for me and something I want to learn more about. I am also hopeful that this might lead to a career in the field. I have no experience with HPC prior to this, but I'm eager to learn more. I have limited experience in the theory of computational science, along with some experience in the theory of scheduling and threading and matrices.
 
 Hex Sun: 
 
