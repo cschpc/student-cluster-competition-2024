@@ -78,7 +78,7 @@ The team will also benefit from Mr. Saraste's experience from the 2022 IndySCC r
 
 Each team member has a set of goals that they describe below.
 
-Kim Takala: HPC is a big area of interest for me and something I want to learn more about. I am also hopeful that this might lead to a career in the field. I have no experience with HPC prior to this, but I'm eager to learn more. I have limited experience in the theory of computational science, along with some experience in the theory of scheduling and threading and matrices.
+Kim Takala: HPC is a big area of interest for me and something I want to learn more about. I am also hopeful that this might lead to a career in the field. I have no experience with HPC prior to this, but I'm eager to learn more. I have limited experience in the theory of computational science, along with some experience in the theory of scheduling and threading and matrices. In the competition I hope to gain invaluable experience when it comes to optimizing HP systems especially relating to scientific computing. I would love to see in person what makes a high performance machine work and how it operates under a heavy load. Physics has always been close to my heart so getting to optimize a physical / chemical simulation is something I'm really looking forward to.
 
 Hex Sun: Theory of computation changed how we think about mathematics and philosophical logic before, and we are at another turning point. The engineering of computing implements is essential for this chaange. I am particularily interested in the frontier of computer hardware, and I am very excited to learn everything about computing technology deployed in the industry.
 
