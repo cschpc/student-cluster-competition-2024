@@ -86,6 +86,6 @@ Camilla Kontto: HPC will be important to my future career in regards of analysin
 
 Sara Vakkilainen: I'm going towards a master's in bioinformatics so this competition will provide me with excellent background knowledge in HPC. Also looking to make connections in the field, as well as friends. I've used Mahti and Puhti supercomputers in a few basic bioinformatics courses. I've completed a programming basics course in Python as well as basic studies of mathematics, including linear algebra and matrices.
 
-Matteo Murdaca: I've always been interested in HPC and I think it might be highly valuable for my future career in physics. I have very basic experience on HPC, I've studied basics of programming and DSA and I've studied basics of C/C++.
+Matteo Murdaca: I will take a master in applied physics which will be focused on high energy physics. For my PhD I'll focus on monte carlo methods for computational high energy physics. High energy physics relies on the incredible amount of data that is constantly produced by the various observatories and particle accelerators around the world. To elaborate such amount of data, supercomputers are needed and knowing how to squeeze the highest amount of performances out of them will allow me to get a deeper understanding of the field and to execute better experiments.
 
 Based on a successful approach in prior years, CSC will write a recommendation of study credits for the students based on the time that they spend working and preparing for SCC. In prior years these have been accepted at the Universities with no issues.
