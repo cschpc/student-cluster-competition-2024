@@ -25,7 +25,11 @@ The advisor, Dr. Jussi Enkovaara has background in computational physics and has
 Our approach was to maximize the number of applications so that we could then form a diverse team. CSC made an open call for applications to two universities, Aalto University and University of Helsinki. Flyers were distributed to the universities, and the relevant professors and lecturers were contacted. Advertisements were sent to student union mailing lists. Diversity of applicants was emphasized in all of the advertisement materials. 
 
 In Team Löyly and at CSC, we try to promote equality for applicants regarding gender, ethnic background and other factors to promote a more diverse and equal field in HPC for all students. 
-We are happy to have a team together that consists of 3 male students and 3 female students. (+ Info about diversity in nationalities?)
+
+We are happy to have a team together that consists of 3 male students and 3 female students and has diversity in the students' backgrounds. 
+Our team consists of 4 Finnish students, one student from Italy and one Chinese student. International students can be underrepresented in these kinds of competitions in Finland, so we believe that this diversity in our backgrounds is a strength and a point of pride for our team. 
+
+Additionally, we have team members in the team who openly identify as LGBT, and some that are neurodivergent. Both of these groups are often underrepresented in the field of HPC.
 
 As not all the members speak Finnish, the working language of the team is English.
 
@@ -37,7 +41,8 @@ The system has the highest performing air cooled AMD GPUs and the CPUs are optim
 
 As there is a power cap for the competition, we have considered all the related aspects. In full utilization, the system draws close to 4 kW, while in idle the power usage is around 1 kW. We expect to fine tune the GPU clock frequency and the fans to limit power consumption if needed, but it should fit well under the 4500W power draw limit.
 
-We have verified that all of the benchmarks (HPL/MLPerf) can be executed on the system. Regarding the applications, both NAMD and ICON are regularly run in LUMI both in CPU and GPU partitions. As our competition hardware and software environment is similar to LUMI, the applications can be readily run also there. Additionally, the team will be trained to convert CUDA codes to HIP if necessary, especially for the mystery benchmark and application and for the reproducibility challenge. All porting efforts will be made available to the SCC committee. Furthermore, the team advisor, Dr. Enkovaara, has been the main developer for porting ICON to LUMI.
+We have verified that all of the benchmarks (HPL/MLPerf) can be executed on the system. Regarding the applications, both NAMD and ICON are regularly run in LUMI both in CPU and GPU partitions. As our competition hardware and software environment is similar to LUMI, the applications can be readily run also there. Additionally, the team will be trained to convert CUDA codes to HIP if necessary, especially for the mystery benchmark and application and for the reproducibility challenge. Furthermore, the team advisor, Dr. Enkovaara, has been the main developer for porting ICON to LUMI.
+All porting efforts will be made available to the SCC committee. 
 
 The application codes and their dependencies will be installed with the applications' own build infrastructure (e.g. cmake/make) or with Spack when appropriate. The system will accommodate a set of compilers (Cray, AMD, GNU), and when preparing for the competition, we will investigate the optimal one for each application. The SLURM scheduler will be used for the job submissions on the system.
 
@@ -50,7 +55,7 @@ We are collaborating with HPE who is also the vendor for the LUMI supercomputer,
 HPE will provide training to the team regarding tuning the hardware, power management of the cluster, system initialization, system administration and also information about rebooting the system after shutdowns (e.g in case of an unexpected blackout).  
 Additionally, we have a close relationship with AMD, and will be in contact with them about any sort of final tuning and information about getting the most out of the GPUs and CPUs in our use.
 
-Our main vendor partner, HPE, will cover the traveling costs for the team and will assist the team in assembling the system at the start of the conference. 
+Our main vendor partner, HPE, will cover the traveling costs for the team. 
 
 ## Team Preparation
 
@@ -64,29 +69,30 @@ The training topics include:
 - Deeper dive into HPC architectures: memory hierarchies, affinities, thread hierarchies in GPUs
 - Cloud adminstration and deployment (if the team ends up in the IndySCC)
 
-We'll simulate the mystery application task with e.g. Gromacs, Elmer or OpenFoam. As our system has AMD GPUs, training sessions will be held for porting CUDA codes to HIP, and preparing Make/CMake files in case the mystery application has only CUDA support. Finally, we will study the materials from the previous competitions and discuss the strategies that winning teams employed.
+We will simulate the mystery application task with e.g. Gromacs, Elmer or OpenFoam. As our system has AMD GPUs, training sessions will be held for porting CUDA codes to HIP, and preparing Make/CMake files in case the mystery application has only CUDA support. Finally, we will study the materials from the previous competitions and discuss the strategies that winning teams employed.
 
 In the training so far we have used LUMI (AMD MI250x GPUs), CSC's Mahti (1404 AMD Rome + 24 NVIDIA A100 GPU nodes) and Puhti (700 Intel CPU + 80 NVIDIA V100 GPU nodes) supercomputers. In the future, we will use also HPE's remote access platform with similar configuration to our competition system. Once the actual competition system is available, it will be exclusively used in the training.
 
-The team members will have specific roles based on their individual strengths and interests, but these will be decided at a later stage. However, the majority of the training is common to all team members, so that in principle, everybody knows how the cluster is managed and how all of the applications are run.
+The team members will have specific roles based on their individual strengths and interests (SysAdmins, Application specialists, HPL specialists etc.). However, the majority of the training is common to all team members, so that in principle, everybody knows how the cluster is managed and how all of the applications are run.
 
-The advisor, Dr. Enkovaara made his Ph.D. thesis in electronic structure simulations in 2003. He has extensive experience in using and developing HPC applications in various systems ranging from local clusters to Tier-0 leadership facilities. He has contributed to a number of national and international HPC code development projects, and has been one of the key developers of the density-functional theory code GPAW. Currently his focus is in porting and optimizing large GPU based climate models in LUMI, and he is active member of the development community of ICON earth system model. He is active in CSC's user training and contributes each year to several courses on parallel programming, GPU programming etc.
+CSC employs a wide range of application specialists in HPC, and similarly to prior years, some of the exprets that have worked on specific competition applications (Gromacs, NAMD, ICON) will occasionally give guest lectures and opportunities for the students to ask more in-depth questions.
+The team will also benefit from Mr. Saraste's experience from the 2022 IndySCC. His experiences about working practices, task distribution and competition dynamics will be indispensable. 
 
-The team will also benefit from Mr. Saraste's experience from the 2022 IndySCC regarding working practices, task distribution and the team and competition dynamics will be indispensable.
+We believe that it takes a village to build a team, and we believe that the training staff at CSC can provide all of the preparation necessary to give us students the best possible tools to succeed.
 
 ## Team Educational Goals
 
-Each team member has a set of goals that they describe below.
+Each team member describe their goals below.
 
-Kim Takala: HPC is a big area of interest for me and something I want to learn more about. I am also hopeful that this might lead to a career in the field. I have no experience with HPC prior to this, but I'm eager to learn more. I have limited experience in the theory of computational science, along with some experience in the theory of scheduling, threading, and matrices. In the competition, I hope to gain invaluable experience when it comes to optimizing HP systems especially relating to scientific computing. I would love to see in person what makes a high-performance machine work and how it operates under a heavy load. Physics has always been close to my heart so getting to optimize a physical/chemical simulation is something I'm really looking forward to.
+Kim Takala: I am really interested in HPC and I want to learn more about it. I am also hopeful that this might lead to a career in the field. In the competition, I'm eager to learn invaluable skills in optimizing HP systems, especially in scientific computing. I'm excited to witness firsthand how high-performance machines operate under heavy loads. Since physics is a passion of mine, I'm particularly looking forward to optimizing physical/chemical simulations.
 
 Hex Sun: Theory of computation changed how we think about mathematics and philosophical logic before, and we are at another turning point. Engineering of computing implements is essential for this change. I am particularly interested in the frontier of computer hardware, and I am very excited to learn everything about computing technology deployed in the industry.
 
-Camilla Kontto: HPC will be important to my future career in regards of analysing biological data. A genome sequence can be millions of base pairs long and will need a lot of computing power in order to be cleaned, aligned and analyzed. I have used CSC's supercomputers Mahti and Puhti but my experience is not very broad. I have some experience on linear algebra and matrices as well.
+Camilla Kontto: HPC will be important to my future career in regards of analysing biological data. A genome sequence can be millions of base pairs long and will need a lot of computing power in order to be cleaned, aligned and analyzed. I have used CSC's supercomputers Mahti and Puhti for this before and now I'm eager to get a chance to expand my expertise in this field.
 
-Sara Vakkilainen: I'm going towards a master's in bioinformatics so this competition will provide me with excellent background knowledge in HPC. HPC has revolutionized biological data analysis and therefore it will be a vital skill in my future career. HPC provides possibilities to further develop precision medicine and genome sequencing. Currently, I'm working in a computational medicine research group and the skills I've already learnt in HPC have given me an advantage in the field. I've used Mahti and Puhti supercomputers in a few basic bioinformatics courses. I've completed a programming basics course in Python as well as basic studies of mathematics, including linear algebra and matrices.
+Sara Vakkilainen: I'm going towards a master's in bioinformatics so this competition will provide me with excellent background knowledge in HPC. HPC has revolutionized biological data analysis and therefore it will be a vital skill in my future career. HPC provides possibilities to further develop precision medicine and genome sequencing. Currently, I'm working in a computational medicine research group and the skills I've already learnt in HPC have given me an advantage in the field. I hope to take this advantage even further by learning about state-of-the-art hardware and workflows. 
 
-Matteo Murdaca: I will take a master in applied physics which will be focused on high energy physics. For my PhD I'll likely focus on monte carlo methods for computational high energy physics. High energy physics relies on the incredible amount of data that is constantly produced by the various observatories and particle accelerators around the world. To elaborate such amount of data, supercomputers are needed and knowing how to squeeze the highest amount of performances out of them will allow me to get a deeper understanding of the field and to execute better experiments.
+Matteo Murdaca: I'm aiming for Master studies in high-energy physics. For my PhD I'll likely focus on Monte Carlo methods for computational high-energy physics. This field relies on the incredible amount of data that is constantly produced by the various observatories and particle accelerators worldwide. To process such amounts of data, supercomputers are needed and knowing how to squeeze the highest amount of performance out of them will allow me to get a deeper understanding of the field and to execute better experiments.
 
 santeri toivonen:
 I wish to learn more about the field of HPC. About how to create, operate and maintain HPC systems but also about theoretical aspects. Learn about real world applications of HPC and what kind of advances are going on in the field. Learn about possible opportunities. Question of how to get maximal computational performance out of computers is interesting, and SCC seems like an excellent opportunity to gain more knowledge about the subject. 
