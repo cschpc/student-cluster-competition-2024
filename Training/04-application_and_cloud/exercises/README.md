@@ -49,7 +49,7 @@ Select `Launch Instance`. We need to change at least the following options in th
 
 1. Instance name
 2. Flavor
-    - For basic (CPU) testing, choose the `standard.small` flavor
+    - For basic (CPU) testing, choose the `standard.tiny` flavor
     - Full list of flavors: https://docs.csc.fi/cloud/pouta/vm-flavors-and-billing/
 3. Instance Boot Source
     - Select `Boot from image`
