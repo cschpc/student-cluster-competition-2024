@@ -80,7 +80,7 @@ Each team member has a set of goals that they describe below.
 
 Kim Takala: HPC is a big area of interest for me and something I want to learn more about. I am also hopeful that this might lead to a career in the field. I have no experience with HPC prior to this, but I'm eager to learn more. I have limited experience in the theory of computational science, along with some experience in the theory of scheduling and threading and matrices.
 
-Hex Sun: 
+Hex Sun: Theory of computation changed how we think about mathematics and philosophical logic before, and we are at another turning point. The engineering of computing implements is essential for this chaange. I am particularily interested in the frontier of computer hardware, and I am very excited to learn everything about computing technology deployed in the industry.
 
 Camilla Kontto: HPC will be important to my future career in regards of analysing biological data. A genome sequence can be millions of base pairs long and will need a lot of computing power in order to be cleaned, aligned and analyzed. I have used CSC's supercomputers Mahti and Puhti but my experience is not very broad. I have some experience on linear algebra and matrices as well.
 
