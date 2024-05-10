@@ -22,10 +22,11 @@ The advisor, Dr. Jussi Enkovaara has background in computational physics and has
 
 ## Strength of Diversity
 
-Our approach was to maximize the number of applications so that we could then form a diverse team. CSC made an open call for applications to two universities, Aalto University and University of Helsinki. Flyers were distributed to the universities, and the relevant professors and lecturers were contacted. Advertisements were sent to student union mailing lists. Diversity of applicants was emphasized in all of the advertisement materials. 
+Our approach was to maximize the number of applications so that we could then form a diverse team. CSC made an open call for applications to two universities, Aalto University and University of Helsinki. Flyers were distributed to the universities, and the relevant professors and lecturers were contacted. Advertisements were sent to student unions and special status associations mailing lists. Diversity of applicants was emphasized in all of the advertisement materials. 
 
 In Team Löyly and at CSC, we try to promote equality for applicants regarding gender, ethnic background and other factors to promote a more diverse and equal field in HPC for all students. 
 We are happy to have a team together that consists of 3 male students and 3 female students. (+ Info about diversity in nationalities?)
+Aalto university offers only five english bachelors in the field of science and technology where the student intake is limited when compared to analogous finnish programmes, due to this international students are a small minority when it comes to bachelors; this is reflected in the special status student associations boards where non finnish speakers are absent.
 
 As not all the members speak Finnish, the working language of the team is English.
 
