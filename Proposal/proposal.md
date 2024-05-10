@@ -88,4 +88,7 @@ Sara Vakkilainen: I'm going towards a master's in bioinformatics so this competi
 
 Matteo Murdaca: I will take a master in applied physics which will be focused on high energy physics. For my PhD I'll focus on monte carlo methods for computational high energy physics. High energy physics relies on the incredible amount of data that is constantly produced by the various observatories and particle accelerators around the world. To elaborate such amount of data, supercomputers are needed and knowing how to squeeze the highest amount of performances out of them will allow me to get a deeper understanding of the field and to execute better experiments.
 
+santeri toivonen:
+I wish to learn more about the field of HPC. About how to create, operate and maintain HPC systems but also about theoretical aspects. Learn about real world applications of HPC and what kind of advances are going on in the field. Learn about possible opportunities. Question of how to get maximal computational performance out of computers is interesting, and SCC seems like an excellent opportunity to gain more knowledge about the subject. 
+
 Based on a successful approach in prior years, CSC will write a recommendation of study credits for the students based on the time that they spend working and preparing for SCC. In prior years these have been accepted at the Universities with no issues.
