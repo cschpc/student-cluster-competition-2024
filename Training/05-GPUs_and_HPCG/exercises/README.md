@@ -4,7 +4,7 @@ Task: Install and run the HPCG benchmark on a single LUMI-G node
 
 The following are the basic steps you need to take as a team:
 
-1. Create a folder on the cluster where you will work as a team and where each team member has access
+1. Create a folder under the path `/scratch/project_462000565/` where each team member has access
 2. Download [rocHPCG](https://github.com/cschpc/rocHPCG) into the working folder
 3. Install HPCG
     - Export the cray compiler wrappers into your environment first with `export CXX=CC` and `export HIPCXX=CC`
