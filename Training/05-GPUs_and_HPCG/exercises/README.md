@@ -10,6 +10,7 @@ The following are the basic steps you need to take as a team:
     - Export the cray compiler wrappers into your environment first with `export CXX=CC` and `export HIPCXX=CC`
     - *Do not instruct rocHPCG to install dependencies*
     - You need to specify the system's MPI and ROCm installation paths during this. Check this with the help from the advisor.
+    - Include the `--gpu-aware-mpi=true` flag during installation
     - Write down the command for installing it.
 4. Run a basic test, at max a few minutes long on just **one GPU**.
     - (Optional) Try to tune the test until you get a result of >200 GFLOPs/process.
