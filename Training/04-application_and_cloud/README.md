@@ -1,4 +1,4 @@
-# SCC Training 03
+# SCC Training 04
 
 Date: 10.05.2024  
 Slides: [Link](./slides)
