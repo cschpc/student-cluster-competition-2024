@@ -40,4 +40,6 @@ Answer the following questions:
 - The paths where LUMI's MPI is installed can be queried with the `module show [module]` command
 - The local matrix size should take up as much memory as possible, without overloading it
 - Very large matrix sizes might take a lot of time to initialize (> 10 minutes), start with small sizes, e.g. $64^{3}$
-- You can check the GPU utilization of the node you're running on with the `rocm-smi` command (ssh into the node first)
+- You can check the GPU utilization of the node you're running on with the `rocm-smi` command
+    - See [LUMI user guide](https://docs.lumi-supercomputer.eu/runjobs/scheduled-jobs/interactive/#using-srun-to-check-running-jobs) for instructions for logging into a compute node.
+    - In some systems (e.g. Mahti and Puhti) one can also directly ssh into the compute node shown by `squeue`
