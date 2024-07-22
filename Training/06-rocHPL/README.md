@@ -1,6 +1,6 @@
 # SCC Training 06
 
-Date: 23.07.2024  
+Date: 24.07.2024  
 Slides: [Link](./slides)
 
 ## Schedule

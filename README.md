@@ -32,7 +32,7 @@ This repository contains the training materials and other relevant documents for
 |Week 17|26.4.|Multithreading with OpenMP, Make systems and HPL|[Link](Training/03-threading_and_hpl)|  
 |Week 19|10.5.|SCC Application, Cloud computing|[Link](Training/04-application_and_cloud)|  
 |Week 25|18.6.|HPCG, SCC Application results and dinner|[Link](Training/05-GPUs_and_HPCG)|
-|Week 30|23.7.|Running and tuning HPL on AMD GPUs|[Link](Training/06-rocHPL)|
+|Week 30|24.7.|Running and tuning HPL on AMD GPUs|[Link](Training/06-rocHPL)|
 
 ## Official SCC links
 
