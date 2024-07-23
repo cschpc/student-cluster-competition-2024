@@ -9,9 +9,10 @@ The following are the basic steps you need to take as a team:
 3. Load the following modules into your session: `LUMI/23.09`, `partition/G`, `rocm`
 4. Install HPL
     - Remember to export the cray compiler wrappers into your environment first with `export CXX=CC` and `export HIPCXX=CC`
-    - You need to specify the system's MPI installation path again during this  
+    - You need to specify the system's MPI installation path again during this
+    - Use the rocm and rocblas found in the system
     - Write down the command you used for installing HPL
-5. Let the advisor know when you reach this step and Wait for the next instructions
+5. Let the advisor know when you reach this step and wait for the next instructions
 
 ### Task 2: Run HPL on a single LUMI-G node
 
@@ -32,9 +33,9 @@ The following are the basic steps you need to take as a team:
 
 Document the following aspects:
 
-1. The command you used for installing HPL?
-2. The best result your team got with one GPU in use? (GFLOPS)
-3. The best result on the fully utilized LUMI-G node? (GFLOPS)
+1. The command you used for installing HPL
+2. The best result your team got with one GPU in use (GFLOPS)
+3. The best result on the fully utilized LUMI-G node (GFLOPS)
 4. How do the results compare to the "theoretical peak" of 191,6 TFLOPS for the 4 GPUs in the node [(source)](https://www.amd.com/en/products/accelerators/instinct/mi200/mi250x.html)? What is the percentage of the results from the theoretical peak?
 5. The Slurm script you used for running your test at step 4
 6. Collect the results into the `deliverables` folder in GitHub
@@ -42,7 +43,7 @@ Document the following aspects:
 ## Notes and tips
 
 - The paths where specific modules in LUMI are installed can be queried with the `module show [module]` command
-- The local matrix size should take up as much memory as possible, without overloading it
+- With HPL, the local matrix size should take up as much memory as possible, without overloading it
     - - An MI250X has a local memory of 128GB (or 64GB in "halves") [source](https://www.amd.com/en/products/accelerators/instinct/mi200/mi250x.html)
 - You can check the GPU utilization of the node you're running on with the `rocm-smi` command
     - See [LUMI user guide](https://docs.lumi-supercomputer.eu/runjobs/scheduled-jobs/interactive/#using-srun-to-check-running-jobs) for instructions for logging into a compute node
