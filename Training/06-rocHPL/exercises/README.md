@@ -15,17 +15,17 @@ The following are the basic steps you need to take as a team:
 
 ### Task 2: Run HPL on a single LUMI-G node
 
-1. Navigate into the `build` directory
-2. Choose to either use a HPL.dat file, or run HPL via the command line as instructed
-3. Run a basic test, at max a few minutes long on just **one GPU**.
-    - Run HPL via Slurm. For an example script, find the [https://docs.lumi-supercomputer.eu/runjobs/scheduled-jobs/lumig-job/](LUMI docs)
-    - The executable `run_rochpl` will appear under the `build` path by default
-    - Include the environment variable `MPICH_GPU_SUPPORT_ENABLED=1` in your Slurm script/srun command 
-    - Use the slurm command `--cpu-bind=none` when working with the `run_rochpl` wrapper
+1. Decide whether you want to use a HPL.dat input file or run HPL via the run command
+2. Navigate into the build directory and prepare a basic Slurm script for running HPL
+    - For an example script, find: [https://docs.lumi-supercomputer.eu/runjobs/scheduled-jobs/lumig-job/](LUMI docs)
+    - Use the wrapper `run_rochpl` for running the program
+    - Include the environment variable `MPICH_GPU_SUPPORT_ENABLED=1` in your Slurm script/srun command
+    - Include the Slurm flag `--cpu-bind=none` when using the wrapper
+3. Run a basic test, at max a few minutes long on just **one GPU**
+    - *Note!* Slurm disbatches Lumi's MI250X GPUs in halves, so include 2 gpus in the slurm job script 
     - Write down your results
-4. Include the full 4 GPUs on a LUMI-G node
-    - *Note!* Slurm disbatches Lumi's GPU's in halves, so include 8 gpus in the slurm job script
-    - Aim for a result that's over 50% of the theoretical peak (191,6 TFLOPS)
+4. Include the full 4 MI250X GPUs on a LUMI-G node
+    - Aim for a result of over 50% of the theoretical peak (191,6 TFLOPS)
     - Write down your results
 
 ## Deliverable
@@ -36,8 +36,8 @@ Document the following aspects:
 2. The best result your team got with one GPU in use? (GFLOPS)
 3. The best result on the fully utilized LUMI-G node? (GFLOPS)
 4. How do the results compare to the "theoretical peak" of 191,6 TFLOPS for the 4 GPUs in the node [(source)](https://www.amd.com/en/products/accelerators/instinct/mi200/mi250x.html)? What is the percentage of the results from the theoretical peak?
-5. Collect the results into the `deliverables` folder in GitHub
-6. Return the Slurm script you used during your best run into GitHub, under the `deliverables` folder
+5. The Slurm script you used for running your test at step 4
+6. Collect the results into the `deliverables` folder in GitHub
 
 ## Notes and tips
 
