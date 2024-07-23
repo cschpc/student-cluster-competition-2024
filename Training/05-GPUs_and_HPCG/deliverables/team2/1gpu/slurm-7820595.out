@@ -1,0 +1,222 @@
+rocHPCG version: 0.8.3-7636f34 (based on hpcg-3.1)
+Using HIP device (0):  (65520 MB global memory)
+
+Setup Phase took 0.07 sec
+
+Copying GPU assembled data to host for reference computations
+
+Checking assembled data ...
+
+Starting Reference CG Phase ...
+
+REFERENCE Initial Residual = 8.482532e+03
+REFERENCE Iteration = 1   Scaled Residual = 1.857890e-01
+REFERENCE Iteration = 2   Scaled Residual = 1.019284e-01
+REFERENCE Iteration = 3   Scaled Residual = 7.029910e-02
+REFERENCE Iteration = 4   Scaled Residual = 5.365770e-02
+REFERENCE Iteration = 5   Scaled Residual = 4.334968e-02
+REFERENCE Iteration = 6   Scaled Residual = 3.633262e-02
+REFERENCE Iteration = 7   Scaled Residual = 3.125544e-02
+REFERENCE Iteration = 8   Scaled Residual = 2.742576e-02
+REFERENCE Iteration = 9   Scaled Residual = 2.444551e-02
+REFERENCE Iteration = 10   Scaled Residual = 2.206220e-02
+REFERENCE Iteration = 11   Scaled Residual = 2.010644e-02
+REFERENCE Iteration = 12   Scaled Residual = 1.846191e-02
+REFERENCE Iteration = 13   Scaled Residual = 1.704841e-02
+REFERENCE Iteration = 14   Scaled Residual = 1.581515e-02
+REFERENCE Iteration = 15   Scaled Residual = 1.473133e-02
+REFERENCE Iteration = 16   Scaled Residual = 1.377679e-02
+REFERENCE Iteration = 17   Scaled Residual = 1.293742e-02
+REFERENCE Iteration = 18   Scaled Residual = 1.219968e-02
+REFERENCE Iteration = 19   Scaled Residual = 1.154776e-02
+REFERENCE Iteration = 20   Scaled Residual = 1.096538e-02
+REFERENCE Iteration = 21   Scaled Residual = 1.043659e-02
+REFERENCE Iteration = 22   Scaled Residual = 9.947991e-03
+REFERENCE Iteration = 23   Scaled Residual = 9.492108e-03
+REFERENCE Iteration = 24   Scaled Residual = 9.066647e-03
+REFERENCE Iteration = 25   Scaled Residual = 8.672331e-03
+REFERENCE Iteration = 26   Scaled Residual = 8.311438e-03
+REFERENCE Iteration = 27   Scaled Residual = 7.984538e-03
+REFERENCE Iteration = 28   Scaled Residual = 7.688871e-03
+REFERENCE Iteration = 29   Scaled Residual = 7.419256e-03
+REFERENCE Iteration = 30   Scaled Residual = 7.168460e-03
+REFERENCE Iteration = 31   Scaled Residual = 6.929468e-03
+REFERENCE Iteration = 32   Scaled Residual = 6.698517e-03
+REFERENCE Iteration = 33   Scaled Residual = 6.475182e-03
+REFERENCE Iteration = 34   Scaled Residual = 6.261752e-03
+REFERENCE Iteration = 35   Scaled Residual = 6.061811e-03
+REFERENCE Iteration = 36   Scaled Residual = 5.877211e-03
+REFERENCE Iteration = 37   Scaled Residual = 5.706997e-03
+REFERENCE Iteration = 38   Scaled Residual = 5.547672e-03
+REFERENCE Iteration = 39   Scaled Residual = 5.393631e-03
+REFERENCE Iteration = 40   Scaled Residual = 5.239786e-03
+REFERENCE Iteration = 41   Scaled Residual = 5.084013e-03
+REFERENCE Iteration = 42   Scaled Residual = 4.927123e-03
+REFERENCE Iteration = 43   Scaled Residual = 4.772292e-03
+REFERENCE Iteration = 44   Scaled Residual = 4.623314e-03
+REFERENCE Iteration = 45   Scaled Residual = 4.482129e-03
+REFERENCE Iteration = 46   Scaled Residual = 4.348462e-03
+REFERENCE Iteration = 47   Scaled Residual = 4.220337e-03
+REFERENCE Iteration = 48   Scaled Residual = 4.095045e-03
+REFERENCE Iteration = 49   Scaled Residual = 3.972083e-03
+REFERENCE Iteration = 50   Scaled Residual = 3.856464e-03
+
+Optimization Phase took 0.33 sec
+
+Validation Testing Phase ...
+
+Optimized CG Setup ...
+
+HIP Initial Residual = 8.482532e+03
+HIP Iteration = 1   Scaled Residual = 2.181815e-01
+HIP Iteration = 2   Scaled Residual = 1.181194e-01
+HIP Iteration = 3   Scaled Residual = 8.049891e-02
+HIP Iteration = 4   Scaled Residual = 6.095748e-02
+HIP Iteration = 5   Scaled Residual = 4.910605e-02
+HIP Iteration = 6   Scaled Residual = 4.109121e-02
+HIP Iteration = 7   Scaled Residual = 3.533862e-02
+HIP Iteration = 8   Scaled Residual = 3.099800e-02
+HIP Iteration = 9   Scaled Residual = 2.760858e-02
+HIP Iteration = 10   Scaled Residual = 2.488741e-02
+HIP Iteration = 11   Scaled Residual = 2.266093e-02
+HIP Iteration = 12   Scaled Residual = 2.080358e-02
+HIP Iteration = 13   Scaled Residual = 1.923800e-02
+HIP Iteration = 14   Scaled Residual = 1.790335e-02
+HIP Iteration = 15   Scaled Residual = 1.675685e-02
+HIP Iteration = 16   Scaled Residual = 1.576601e-02
+HIP Iteration = 17   Scaled Residual = 1.490383e-02
+HIP Iteration = 18   Scaled Residual = 1.414683e-02
+HIP Iteration = 19   Scaled Residual = 1.347165e-02
+HIP Iteration = 20   Scaled Residual = 1.285549e-02
+HIP Iteration = 21   Scaled Residual = 1.227741e-02
+HIP Iteration = 22   Scaled Residual = 1.172045e-02
+HIP Iteration = 23   Scaled Residual = 1.117687e-02
+HIP Iteration = 24   Scaled Residual = 1.064730e-02
+HIP Iteration = 25   Scaled Residual = 1.013821e-02
+HIP Iteration = 26   Scaled Residual = 9.659095e-03
+HIP Iteration = 27   Scaled Residual = 9.216344e-03
+HIP Iteration = 28   Scaled Residual = 8.812428e-03
+HIP Iteration = 29   Scaled Residual = 8.447230e-03
+HIP Iteration = 30   Scaled Residual = 8.117486e-03
+HIP Iteration = 31   Scaled Residual = 7.819181e-03
+HIP Iteration = 32   Scaled Residual = 7.548699e-03
+HIP Iteration = 33   Scaled Residual = 7.301450e-03
+HIP Iteration = 34   Scaled Residual = 7.073014e-03
+HIP Iteration = 35   Scaled Residual = 6.859319e-03
+HIP Iteration = 36   Scaled Residual = 6.655396e-03
+HIP Iteration = 37   Scaled Residual = 6.456951e-03
+HIP Iteration = 38   Scaled Residual = 6.260974e-03
+HIP Iteration = 39   Scaled Residual = 6.065109e-03
+HIP Iteration = 40   Scaled Residual = 5.869326e-03
+HIP Iteration = 41   Scaled Residual = 5.675456e-03
+HIP Iteration = 42   Scaled Residual = 5.485484e-03
+HIP Iteration = 43   Scaled Residual = 5.302116e-03
+HIP Iteration = 44   Scaled Residual = 5.127597e-03
+HIP Iteration = 45   Scaled Residual = 4.962849e-03
+HIP Iteration = 46   Scaled Residual = 4.809014e-03
+HIP Iteration = 47   Scaled Residual = 4.667162e-03
+HIP Iteration = 48   Scaled Residual = 4.538904e-03
+HIP Iteration = 49   Scaled Residual = 4.428879e-03
+HIP Iteration = 50   Scaled Residual = 4.345590e-03
+HIP Iteration = 51   Scaled Residual = 4.303486e-03
+HIP Iteration = 52   Scaled Residual = 4.325134e-03
+HIP Iteration = 53   Scaled Residual = 4.438155e-03
+HIP Iteration = 54   Scaled Residual = 4.664374e-03
+HIP Iteration = 55   Scaled Residual = 4.989185e-03
+HIP Iteration = 56   Scaled Residual = 5.298915e-03
+HIP Iteration = 57   Scaled Residual = 5.331299e-03
+HIP Iteration = 58   Scaled Residual = 4.808789e-03
+HIP Iteration = 59   Scaled Residual = 3.794121e-03
+
+Total device memory usage: 24924 MByte (36930 MByte)
+
+Starting Benchmarking Phase ...
+
+Performing (at least) 72 CG sets in 360.0 seconds ...
+CG set 1 / 72    209.5691 GFlop/s     (209.5691 GFlop/s per process)    1%    354.9 sec left
+CG set 2 / 72    208.9802 GFlop/s     (208.9802 GFlop/s per process)    2%    349.8 sec left
+CG set 3 / 72    209.1125 GFlop/s     (209.1125 GFlop/s per process)    4%    344.7 sec left
+CG set 4 / 72    209.1782 GFlop/s     (209.1782 GFlop/s per process)    5%    339.6 sec left
+CG set 5 / 72    209.1510 GFlop/s     (209.1510 GFlop/s per process)    6%    334.5 sec left
+CG set 6 / 72    209.0257 GFlop/s     (209.0257 GFlop/s per process)    8%    329.4 sec left
+CG set 7 / 72    209.1220 GFlop/s     (209.1220 GFlop/s per process)    9%    324.3 sec left
+CG set 8 / 72    209.1536 GFlop/s     (209.1536 GFlop/s per process)    11%    319.2 sec left
+CG set 9 / 72    209.1591 GFlop/s     (209.1591 GFlop/s per process)    12%    314.1 sec left
+CG set 10 / 72    209.2657 GFlop/s     (209.2657 GFlop/s per process)    13%    309.0 sec left
+CG set 11 / 72    209.2913 GFlop/s     (209.2913 GFlop/s per process)    15%    303.9 sec left
+CG set 12 / 72    209.4178 GFlop/s     (209.4178 GFlop/s per process)    16%    298.8 sec left
+CG set 13 / 72    209.4283 GFlop/s     (209.4283 GFlop/s per process)    18%    293.7 sec left
+CG set 14 / 72    209.4805 GFlop/s     (209.4805 GFlop/s per process)    19%    288.6 sec left
+CG set 15 / 72    209.4489 GFlop/s     (209.4489 GFlop/s per process)    20%    283.5 sec left
+CG set 16 / 72    209.5098 GFlop/s     (209.5098 GFlop/s per process)    22%    278.5 sec left
+CG set 17 / 72    209.5130 GFlop/s     (209.5130 GFlop/s per process)    23%    273.4 sec left
+CG set 18 / 72    209.4489 GFlop/s     (209.4489 GFlop/s per process)    25%    268.2 sec left
+CG set 19 / 72    209.4541 GFlop/s     (209.4541 GFlop/s per process)    26%    263.2 sec left
+CG set 20 / 72    209.4587 GFlop/s     (209.4587 GFlop/s per process)    27%    258.1 sec left
+CG set 21 / 72    209.4628 GFlop/s     (209.4628 GFlop/s per process)    29%    253.0 sec left
+CG set 22 / 72    209.4202 GFlop/s     (209.4202 GFlop/s per process)    30%    247.8 sec left
+CG set 23 / 72    209.4116 GFlop/s     (209.4116 GFlop/s per process)    31%    242.7 sec left
+CG set 24 / 72    209.4168 GFlop/s     (209.4168 GFlop/s per process)    33%    237.6 sec left
+CG set 25 / 72    209.4012 GFlop/s     (209.4012 GFlop/s per process)    34%    232.5 sec left
+CG set 26 / 72    209.4003 GFlop/s     (209.4003 GFlop/s per process)    36%    227.4 sec left
+CG set 27 / 72    209.4003 GFlop/s     (209.4003 GFlop/s per process)    37%    222.3 sec left
+CG set 28 / 72    209.3987 GFlop/s     (209.3987 GFlop/s per process)    38%    217.2 sec left
+CG set 29 / 72    209.3746 GFlop/s     (209.3746 GFlop/s per process)    40%    212.1 sec left
+CG set 30 / 72    209.3745 GFlop/s     (209.3745 GFlop/s per process)    41%    207.0 sec left
+CG set 31 / 72    209.3643 GFlop/s     (209.3643 GFlop/s per process)    43%    201.9 sec left
+CG set 32 / 72    209.3387 GFlop/s     (209.3387 GFlop/s per process)    44%    196.8 sec left
+CG set 33 / 72    209.3398 GFlop/s     (209.3398 GFlop/s per process)    45%    191.7 sec left
+CG set 34 / 72    209.3508 GFlop/s     (209.3508 GFlop/s per process)    47%    186.6 sec left
+CG set 35 / 72    209.3764 GFlop/s     (209.3764 GFlop/s per process)    48%    181.5 sec left
+CG set 36 / 72    209.3577 GFlop/s     (209.3577 GFlop/s per process)    50%    176.4 sec left
+CG set 37 / 72    209.3496 GFlop/s     (209.3496 GFlop/s per process)    51%    171.3 sec left
+CG set 38 / 72    209.3459 GFlop/s     (209.3459 GFlop/s per process)    52%    166.2 sec left
+CG set 39 / 72    209.3508 GFlop/s     (209.3508 GFlop/s per process)    54%    161.1 sec left
+CG set 40 / 72    209.3347 GFlop/s     (209.3347 GFlop/s per process)    55%    156.0 sec left
+CG set 41 / 72    209.3280 GFlop/s     (209.3280 GFlop/s per process)    56%    150.9 sec left
+CG set 42 / 72    209.3333 GFlop/s     (209.3333 GFlop/s per process)    58%    145.8 sec left
+CG set 43 / 72    209.3145 GFlop/s     (209.3145 GFlop/s per process)    59%    140.7 sec left
+CG set 44 / 72    209.3160 GFlop/s     (209.3160 GFlop/s per process)    61%    135.6 sec left
+CG set 45 / 72    209.3174 GFlop/s     (209.3174 GFlop/s per process)    62%    130.5 sec left
+CG set 46 / 72    209.3153 GFlop/s     (209.3153 GFlop/s per process)    63%    125.4 sec left
+CG set 47 / 72    209.3056 GFlop/s     (209.3056 GFlop/s per process)    65%    120.3 sec left
+CG set 48 / 72    209.3150 GFlop/s     (209.3150 GFlop/s per process)    66%    115.2 sec left
+CG set 49 / 72    209.3329 GFlop/s     (209.3329 GFlop/s per process)    68%    110.1 sec left
+CG set 50 / 72    209.3440 GFlop/s     (209.3440 GFlop/s per process)    69%    105.0 sec left
+CG set 51 / 72    209.3344 GFlop/s     (209.3344 GFlop/s per process)    70%    99.9 sec left
+CG set 52 / 72    209.3322 GFlop/s     (209.3322 GFlop/s per process)    72%    94.8 sec left
+CG set 53 / 72    209.3300 GFlop/s     (209.3300 GFlop/s per process)    73%    89.7 sec left
+CG set 54 / 72    209.3170 GFlop/s     (209.3170 GFlop/s per process)    75%    84.6 sec left
+CG set 55 / 72    209.3218 GFlop/s     (209.3218 GFlop/s per process)    76%    79.5 sec left
+CG set 56 / 72    209.3415 GFlop/s     (209.3415 GFlop/s per process)    77%    74.4 sec left
+CG set 57 / 72    209.3675 GFlop/s     (209.3675 GFlop/s per process)    79%    69.3 sec left
+CG set 58 / 72    209.3896 GFlop/s     (209.3896 GFlop/s per process)    80%    64.3 sec left
+CG set 59 / 72    209.2562 GFlop/s     (209.2562 GFlop/s per process)    81%    59.0 sec left
+CG set 60 / 72    209.1557 GFlop/s     (209.1557 GFlop/s per process)    83%    53.7 sec left
+CG set 61 / 72    209.0242 GFlop/s     (209.0242 GFlop/s per process)    84%    48.4 sec left
+CG set 62 / 72    208.9119 GFlop/s     (208.9119 GFlop/s per process)    86%    43.1 sec left
+CG set 63 / 72    208.8006 GFlop/s     (208.8006 GFlop/s per process)    87%    37.9 sec left
+CG set 64 / 72    208.6805 GFlop/s     (208.6805 GFlop/s per process)    88%    32.6 sec left
+CG set 65 / 72    208.5797 GFlop/s     (208.5797 GFlop/s per process)    90%    27.3 sec left
+CG set 66 / 72    208.4706 GFlop/s     (208.4706 GFlop/s per process)    91%    22.0 sec left
+CG set 67 / 72    208.3679 GFlop/s     (208.3679 GFlop/s per process)    93%    16.7 sec left
+CG set 68 / 72    208.3110 GFlop/s     (208.3110 GFlop/s per process)    94%    11.5 sec left
+CG set 69 / 72    208.2247 GFlop/s     (208.2247 GFlop/s per process)    95%    6.2 sec left
+CG set 70 / 72    208.1386 GFlop/s     (208.1386 GFlop/s per process)    97%    0.9 sec left
+CG set 71 / 72    208.0520 GFlop/s     (208.0520 GFlop/s per process)    98%    0.0 sec left
+CG set 72 / 72    207.9941 GFlop/s     (207.9941 GFlop/s per process)    100%    0.0 sec left
+
+Local domain: 384 x 384 x 384
+Global domain: 384 x 384 x 384
+Process domain: 1 x 1 x 1
+
+Total Time: 369.60 sec
+Setup Time: 0.07 sec
+Optimization Time: 0.33 sec
+
+DDOT   =   205.7 GFlop/s ( 1645.5 GB/s)     205.7 GFlop/s per process ( 1645.5 GB/s per process)
+WAXPBY =    97.4 GFlop/s ( 1169.2 GB/s)      97.4 GFlop/s per process ( 1169.2 GB/s per process)
+SpMV   =   188.7 GFlop/s ( 1187.6 GB/s)     188.7 GFlop/s per process ( 1187.6 GB/s per process)
+MG     =   271.6 GFlop/s ( 2095.9 GB/s)     271.6 GFlop/s per process ( 2095.9 GB/s per process)
+Total  =   247.4 GFlop/s ( 1874.9 GB/s)     247.4 GFlop/s per process ( 1874.9 GB/s per process)
+Final  =   208.0 GFlop/s ( 1576.6 GB/s)     208.0 GFlop/s per process ( 1576.6 GB/s per process)
