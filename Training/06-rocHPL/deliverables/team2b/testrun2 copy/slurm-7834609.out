@@ -1,0 +1,5 @@
+HPL ERROR from process # 0, on line 447 of function HPL_pdinfo:
+>>> MPI grid is not uniformly distributed amoung nodes, (P,Q)=(2,4) and (p,q)=(1,8) <<<
+
+srun: error: nid005003: tasks 0-7: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=7834609.0

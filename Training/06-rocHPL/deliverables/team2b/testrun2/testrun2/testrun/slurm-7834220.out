@@ -1,0 +1,4 @@
+srun: error: Invalid numeric value "p" for --ntasks.
+srun: error: Invalid numeric value "p" for --ntasks.
+srun: error: nid005012: tasks 0-1: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=7834220.0

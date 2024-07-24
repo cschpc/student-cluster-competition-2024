@@ -1,0 +1,4 @@
+Invalid MPI grid parameters; Must have the same number of P rows on every node; aborting
+Invalid MPI grid parameters; Must have the same number of P rows on every node; aborting
+srun: error: nid005014: tasks 0-1: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=7834271.0

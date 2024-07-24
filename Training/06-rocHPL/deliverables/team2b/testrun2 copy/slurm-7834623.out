@@ -1,0 +1,22 @@
+HPL ERROR from process # 0, on line 310 of function HPL_pdpanel_init:
+>>> Device memory allocation failed for U workspace. <<< Abort ...
+
+GPU  Binding: Process 0 [(p,q)=(0,0)] GPU: 0, pciBusID c1 
+Local matrix size = 61.5847 GBs
+MPICH ERROR [Rank 0] [job id 7834623.0] [Wed Jul 24 16:08:29 2024] [nid005003] - Abort(-1) (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 0
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 0
+HPL ERROR from process # 1, on line 310 of function HPL_pdpanel_init:
+>>> Device memory allocation failed for U workspace. <<< Abort ...
+
+MPICH ERROR [Rank 1] [job id 7834623.0] [Wed Jul 24 16:08:29 2024] [nid005003] - Abort(-1) (rank 1 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, -1) - process 1
+
+GPU  Binding: Process 1 [(p,q)=(1,0)] GPU: 1, pciBusID c6 
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, -1) - process 1
+srun: error: nid005003: tasks 0-1: Exited with exit code 255
+srun: launch/slurm: _step_signal: Terminating StepId=7834623.0
+slurmstepd: error: *** STEP 7834623.0 ON nid005003 CANCELLED AT 2024-07-24T16:08:30 ***
+srun: error: nid005003: tasks 2-7: Terminated
+srun: Force Terminated StepId=7834623.0

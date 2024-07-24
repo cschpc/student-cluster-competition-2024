@@ -1,0 +1,278 @@
+Node Binding: Process 0 [(p,q)=(0,0)] CPU Cores: 63 - {48-55},{16-23},{0-7},{32-39},{57-63},{24-31},{8-15},{40-47}
+Node Binding: Process 1 [(p,q)=(0,1)] CPU Cores: 63 - {56-63},{24-31},{8-15},{40-47},{49-55},{16-23},{0-7},{32-39}
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 48
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 0
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 49
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 1
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 50
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 2
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 51
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 3
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 52
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 4
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 53
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 5
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 54
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 6
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 55
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 7
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 16
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 8
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 17
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 9
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 18
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 10
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 19
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 11
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 20
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 12
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 21
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 13
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 22
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 14
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 23
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 15
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 32
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 24
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 33
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 25
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 34
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 26
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 35
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 27
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 36
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 28
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 37
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 29
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 38
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 30
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 39
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 31
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 57
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 32
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 58
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 33
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 59
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 34
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 60
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 35
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 61
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 36
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 62
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 37
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 63
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 38
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 24
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 39
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 25
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 40
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 26
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 41
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 27
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 42
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 28
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 43
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 29
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 44
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 30
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 45
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 31
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 46
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 14
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 53
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 15
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 54
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 40
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 55
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 41
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 56
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 42
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 57
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 43
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 58
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 44
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 59
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 45
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 60
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 46
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 61
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring out-of-bounds CPU 47
+[CCE OMP: host=nid005021 pid=82128 tid=82128 id=0] ignoring empty place 62
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 56
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 0
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 57
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 1
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 58
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 2
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 59
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 3
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 60
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 4
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 61
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 5
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 62
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 6
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 63
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 7
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 24
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 8
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 25
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 9
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 26
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 10
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 27
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 11
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 28
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 12
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 29
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 13
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 30
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 14
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 31
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 15
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 14
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 22
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 15
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 23
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 40
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 24
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 41
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 25
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 42
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 26
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 43
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 27
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 44
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 28
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 45
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 29
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 46
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 30
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 47
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 31
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 49
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 32
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 50
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 33
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 51
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 34
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 52
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 35
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 53
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 36
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 54
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 37
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 55
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 38
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 16
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 39
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 17
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 40
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 18
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 41
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 19
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 42
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 20
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 43
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 21
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 44
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 22
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 45
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 23
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 46
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 32
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 55
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 33
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 56
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 34
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 57
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 35
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 58
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 36
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 59
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 37
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 60
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 38
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 61
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring out-of-bounds CPU 39
+[CCE OMP: host=nid005021 pid=82129 tid=82129 id=0] ignoring empty place 62
+WARNING: Requested total thread count and/or thread affinity may result in
+oversubscription of available CPU resources!  Performance may be degraded.
+Explicitly set OMP_WAIT_POLICY=PASSIVE or ACTIVE to suppress this message.
+Set CRAY_OMP_CHECK_AFFINITY=TRUE to print detailed thread-affinity messages.
+WARNING: Requested total thread count and/or thread affinity may result in
+oversubscription of available CPU resources!  Performance may be degraded.
+Explicitly set OMP_WAIT_POLICY=PASSIVE or ACTIVE to suppress this message.
+Set CRAY_OMP_CHECK_AFFINITY=TRUE to print detailed thread-affinity messages.
+GPU  Binding: Process 0 [(p,q)=(0,0)] GPU: 0, pciBusID d1 
+Local matrix size = 4.00415 GBs
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   %   | Column    | Step Time (s) ||         DGEMM GFLOPS         || Panel Copy(s) | pdfact (s) | pmxswp (s) | Lbcast (s) | laswp (s) | GPU Sync (s) | Step GFLOPS | Overall GFLOPS
+       |           |               |  Small   |  First   | Second   |               |            |            |            |           |              |             |               
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1.6% | 000000512 |    4.4314395  |          | 2.265e+04|          |               |            |            |  4.407e+00 | 0.000e+00 |   6.993e-06  |  2.443e+02  |    1.153e+02   
+  3.1% | 000001024 |    2.7632765  | 1.937e+04| 2.290e+04|          |   1.056e-02   |  2.748e+00 |  6.900e-03 |  3.501e-03 | 0.000e+00 |   7.050e-04  |  3.795e+02  |    1.754e+02   
+  4.7% | 000001536 |    2.7081190  |          | 2.279e+04|          |               |            |            |  2.708e+00 | 0.000e+00 |   6.623e-06  |  3.749e+02  |    2.117e+02   
+  6.2% | 000002048 |    3.5679148  | 2.117e+04| 2.285e+04|          |   1.027e-02   |  3.553e+00 |  7.017e-03 |  3.393e-03 | 0.000e+00 |   6.370e-04  |  2.754e+02  |    2.240e+02   
+  7.8% | 000002560 |    3.1398390  |          | 2.281e+04|          |               |            |            |  3.140e+00 | 0.000e+00 |   6.763e-06  |  3.027e+02  |    2.355e+02   
+  9.4% | 000003072 |    2.6038317  | 2.083e+04| 2.285e+04|          |   9.893e-03   |  2.589e+00 |  6.977e-03 |  3.284e-03 | 0.000e+00 |   6.264e-04  |  3.528e+02  |    2.481e+02   
+ 10.9% | 000003584 |    3.3998191  |          | 2.283e+04|          |               |            |            |  3.400e+00 | 0.000e+00 |   7.254e-06  |  2.610e+02  |    2.497e+02   
+ 12.5% | 000004096 |    2.4278849  | 2.025e+04| 2.292e+04|          |   9.555e-03   |  2.414e+00 |  6.971e-03 |  3.184e-03 | 0.000e+00 |   6.247e-04  |  3.529e+02  |    2.581e+02   
+ 14.1% | 000004608 |    2.3237844  |          | 2.282e+04|          |               |            |            |  2.324e+00 | 0.000e+00 |   6.563e-06  |  3.558e+02  |    2.651e+02   
+ 15.6% | 000005120 |    2.6239541  | 2.111e+04| 2.292e+04|          |   9.236e-03   |  2.610e+00 |  7.007e-03 |  3.079e-03 | 0.000e+00 |   5.424e-04  |  3.039e+02  |    2.680e+02   
+ 17.2% | 000005632 |    2.9837919  |          | 2.286e+04|          |               |            |            |  2.984e+00 | 0.000e+00 |   6.603e-06  |  2.575e+02  |    2.672e+02   
+ 18.8% | 000006144 |    2.1958786  | 2.096e+04| 2.290e+04|          |   8.911e-03   |  2.183e+00 |  6.847e-03 |  2.976e-03 | 0.000e+00 |   5.451e-04  |  3.369e+02  |    2.710e+02   
+ 20.3% | 000006656 |    3.1119527  |          | 2.285e+04|          |               |            |            |  3.112e+00 | 0.000e+00 |   7.415e-06  |  2.288e+02  |    2.680e+02   
+ 21.9% | 000007168 |    3.2077785  | 1.954e+04| 2.286e+04|          |   8.591e-03   |  3.195e+00 |  6.937e-03 |  2.868e-03 | 0.000e+00 |   5.469e-04  |  2.134e+02  |    2.642e+02   
+ 23.4% | 000007680 |    3.3474204  |          | 2.270e+04|          |               |            |            |  3.347e+00 | 0.000e+00 |   7.284e-06  |  1.965e+02  |    2.596e+02   
+ 25.0% | 000008192 |    2.7722750  | 2.102e+04| 2.279e+04|          |   8.241e-03   |  2.760e+00 |  6.974e-03 |  2.761e-03 | 0.000e+00 |   4.648e-04  |  2.278e+02  |    2.580e+02   
+ 26.6% | 000008704 |    3.2674265  |          | 2.275e+04|          |               |            |            |  3.267e+00 | 0.000e+00 |   6.863e-06  |  1.854e+02  |    2.537e+02   
+ 28.1% | 000009216 |    2.5923172  | 2.098e+04| 2.278e+04|          |   7.888e-03   |  2.580e+00 |  6.895e-03 |  2.659e-03 | 0.000e+00 |   4.730e-04  |  2.239e+02  |    2.524e+02   
+ 29.7% | 000009728 |    2.6597495  |          | 2.260e+04|          |               |            |            |  2.660e+00 | 0.000e+00 |   7.324e-06  |  2.089e+02  |    2.505e+02   
+ 31.2% | 000010240 |    2.7875618  | 1.947e+04| 2.267e+04|          |   7.572e-03   |  2.776e+00 |  6.836e-03 |  2.570e-03 | 0.000e+00 |   3.754e-04  |  1.907e+02  |    2.479e+02   
+ 32.8% | 000010752 |    2.6201438  |          | 2.249e+04|          |               |            |            |  2.620e+00 | 0.000e+00 |   7.344e-06  |  1.939e+02  |    2.458e+02   
+ 34.4% | 000011264 |    2.2795402  | 1.915e+04| 2.259e+04|          |   7.256e-03   |  2.268e+00 |  6.834e-03 |  2.450e-03 | 0.000e+00 |   4.080e-04  |  2.127e+02  |    2.447e+02   
+ 35.9% | 000011776 |    3.0041431  |          | 2.249e+04|          |               |            |            |  3.004e+00 | 0.000e+00 |   7.154e-06  |  1.539e+02  |    2.409e+02   
+ 37.5% | 000012288 |    2.7195540  | 2.087e+04| 2.244e+04|          |   6.934e-03   |  2.709e+00 |  6.814e-03 |  2.344e-03 | 0.000e+00 |   3.415e-04  |  1.619e+02  |    2.380e+02   
+ 39.1% | 000012800 |    3.2881473  |          | 2.231e+04|          |               |            |            |  3.288e+00 | 0.000e+00 |   6.733e-06  |  1.274e+02  |    2.333e+02   
+ 40.6% | 000013312 |    2.5835487  | 2.047e+04| 2.238e+04|          |   6.587e-03   |  2.573e+00 |  6.915e-03 |  2.240e-03 | 0.000e+00 |   2.940e-04  |  1.540e+02  |    2.308e+02   
+ 42.2% | 000013824 |    3.0361213  |          | 2.227e+04|          |               |            |            |  3.036e+00 | 0.000e+00 |   6.703e-06  |  1.243e+02  |    2.269e+02   
+ 43.8% | 000014336 |    2.6475822  | 2.029e+04| 2.223e+04|          |   6.184e-03   |  2.638e+00 |  6.782e-03 |  2.133e-03 | 0.000e+00 |   2.747e-04  |  1.351e+02  |    2.241e+02   
+ 45.3% | 000014848 |    3.1483040  |          | 2.212e+04|          |               |            |            |  3.148e+00 | 0.000e+00 |   6.673e-06  |  1.075e+02  |    2.199e+02   
+ 46.9% | 000015360 |    2.7677176  | 2.061e+04| 2.213e+04|          |   5.849e-03   |  2.759e+00 |  6.768e-03 |  2.027e-03 | 0.000e+00 |   2.381e-04  |  1.154e+02  |    2.168e+02   
+ 48.4% | 000015872 |    3.1638990  |          | 2.202e+04|          |               |            |            |  3.164e+00 | 0.000e+00 |   7.184e-06  |  9.522e+01  |    2.128e+02   
+ 50.0% | 000016384 |    2.5798174  | 2.027e+04| 2.215e+04|          |   5.493e-03   |  2.571e+00 |  6.690e-03 |  1.924e-03 | 0.000e+00 |   2.335e-04  |  1.099e+02  |    2.100e+02   
+ 51.6% | 000016896 |    2.6034478  |          | 2.199e+04|          |               |            |            |  2.603e+00 | 0.000e+00 |   6.663e-06  |  1.023e+02  |    2.072e+02   
+ 53.1% | 000017408 |    2.5359076  | 1.909e+04| 2.190e+04|          |   5.164e-03   |  2.528e+00 |  6.577e-03 |  1.819e-03 | 0.000e+00 |   2.270e-04  |  9.848e+01  |    2.046e+02   
+ 54.7% | 000017920 |    2.7001750  |          | 2.179e+04|          |               |            |            |  2.700e+00 | 0.000e+00 |   7.554e-06  |  8.652e+01  |    2.015e+02   
+ 56.2% | 000018432 |    2.1158621  | 1.853e+04| 2.187e+04|          |   4.816e-03   |  2.108e+00 |  6.523e-03 |  1.719e-03 | 0.000e+00 |   1.692e-04  |  1.031e+02  |    1.996e+02   
+ 57.8% | 000018944 |    3.0114431  |          | 2.168e+04|          |               |            |            |  3.011e+00 | 0.000e+00 |   6.002e-06  |  6.742e+01  |    1.960e+02   
+ 59.4% | 000019456 |    2.6243574  | 1.995e+04| 2.168e+04|          |   4.510e-03   |  2.617e+00 |  6.471e-03 |  1.610e-03 | 0.000e+00 |   1.729e-04  |  7.184e+01  |    1.931e+02   
+ 60.9% | 000019968 |    2.0473408  |          | 2.178e+04|          |               |            |            |  2.047e+00 | 0.000e+00 |   5.851e-06  |  8.526e+01  |    1.912e+02   
+ 62.5% | 000020480 |    2.6919346  | 1.899e+04| 2.165e+04|          |   4.171e-03   |  2.685e+00 |  6.512e-03 |  1.511e-03 | 0.000e+00 |   1.440e-04  |  5.986e+01  |    1.882e+02   
+ 64.1% | 000020992 |    2.7875384  |          | 2.164e+04|          |               |            |            |  2.787e+00 | 0.000e+00 |   6.172e-06  |  5.319e+01  |    1.851e+02   
+ 65.6% | 000021504 |    2.6121403  | 1.854e+04| 2.157e+04|          |   3.840e-03   |  2.606e+00 |  6.509e-03 |  1.396e-03 | 0.000e+00 |   4.743e-05  |  5.203e+01  |    1.823e+02   
+ 67.2% | 000022016 |    2.4637948  |          | 2.151e+04|          |               |            |            |  2.464e+00 | 0.000e+00 |   5.802e-06  |  5.037e+01  |    1.797e+02   
+ 68.8% | 000022528 |    2.5119197  | 1.966e+04| 2.145e+04|          |   3.526e-03   |  2.506e+00 |  6.509e-03 |  1.303e-03 | 0.000e+00 |   8.050e-05  |  4.492e+01  |    1.771e+02   
+ 70.3% | 000023040 |    2.8517840  |          | 2.153e+04|          |               |            |            |  2.852e+00 | 0.000e+00 |   6.363e-06  |  3.580e+01  |    1.740e+02   
+ 71.9% | 000023552 |    1.5039011  | 1.775e+04| 2.130e+04|          |   3.202e-03   |  1.498e+00 |  6.372e-03 |  1.191e-03 | 0.000e+00 |   6.573e-05  |  6.110e+01  |    1.727e+02   
+ 73.4% | 000024064 |    2.4121995  |          | 2.120e+04|          |               |            |            |  2.412e+00 | 0.000e+00 |   5.812e-06  |  3.409e+01  |    1.703e+02   
+ 75.0% | 000024576 |    2.7355066  | 1.824e+04| 2.117e+04|          |   2.870e-03   |  2.731e+00 |  6.387e-03 |  1.087e-03 | 0.000e+00 |   6.466e-05  |  2.672e+01  |    1.674e+02   
+ 76.6% | 000025088 |    2.7961671  |          | 2.108e+04|          |               |            |            |  2.796e+00 | 0.000e+00 |   6.322e-06  |  2.307e+01  |    1.645e+02   
+ 78.1% | 000025600 |    2.3635321  | 1.704e+04| 2.081e+04|          |   2.530e-03   |  2.359e+00 |  6.308e-03 |  9.800e-04 | 0.000e+00 |   2.061e-05  |  2.389e+01  |    1.622e+02   
+ 79.7% | 000026112 |    2.8357865  |          | 2.075e+04|          |               |            |            |  2.836e+00 | 0.000e+00 |   5.460e-06  |  1.726e+01  |    1.594e+02   
+ 81.2% | 000026624 |    2.1562610  | 1.766e+04| 2.059e+04|          |   2.191e-03   |  2.152e+00 |  6.253e-03 |  8.726e-04 | 0.000e+00 |   5.612e-05  |  1.946e+01  |    1.574e+02   
+ 82.8% | 000027136 |    2.7157880  |          | 2.059e+04|          |               |            |            |  2.716e+00 | 0.000e+00 |   5.851e-06  |  1.308e+01  |    1.548e+02   
+ 84.4% | 000027648 |    2.0278845  | 1.755e+04| 1.988e+04|          |   1.826e-03   |  2.024e+00 |  6.202e-03 |  7.667e-04 | 0.000e+00 |   1.718e-05  |  1.460e+01  |    1.529e+02   
+ 85.9% | 000028160 |    1.6278439  |          | 1.923e+04|          |               |            |            |  1.628e+00 | 0.000e+00 |   5.300e-06  |  1.489e+01  |    1.514e+02   
+ 87.5% | 000028672 |    2.9035497  | 1.573e+04| 1.813e+04|          |   1.479e-03   |  2.901e+00 |  6.222e-03 |  6.689e-04 | 0.000e+00 |   1.590e-05  |  6.687e+00  |    1.488e+02   
+ 89.1% | 000029184 |    3.0280996  |          | 1.784e+04|          |               |            |            |  3.028e+00 | 0.000e+00 |   5.571e-06  |  4.993e+00  |    1.461e+02   
+ 90.6% | 000029696 |    2.3275840  | 1.621e+04| 1.688e+04|          |   1.081e-03   |  2.325e+00 |  5.919e-03 |  5.555e-04 | 0.000e+00 |   1.847e-05  |  4.881e+00  |    1.440e+02   
+ 92.2% | 000030208 |    2.4997909  |          | 1.703e+04|          |               |            |            |  2.500e+00 | 0.000e+00 |   5.260e-06  |  3.257e+00  |    1.419e+02   
+ 93.8% | 000030720 |    1.8838881  | 1.303e+04| 1.278e+04|          |   6.838e-04   |  1.882e+00 |  5.634e-03 |  4.419e-04 | 0.000e+00 |   1.882e-05  |  2.897e+00  |    1.403e+02   
+ 95.3% | 000031232 |    2.5051498  |          | 1.184e+04|          |               |            |            |  2.505e+00 | 0.000e+00 |   5.290e-06  |  1.321e+00  |    1.383e+02   
+ 96.9% | 000031744 |    1.8706520  | 9.670e+03| 2.789e+01|          |   2.664e-04   |  1.818e+00 |  5.280e-03 |  3.594e-04 | 0.000e+00 |   2.316e-05  |  9.085e-01  |    1.368e+02   
+ 98.4% | 000032256 |    2.1797182  |          | 1.337e+01|          |               |            |            |  2.180e+00 | 0.000e+00 |   5.411e-06  |  2.872e-01  |    1.351e+02   
+GPU  Binding: Process 1 [(p,q)=(0,1)] GPU: 1, pciBusID d6 
+Final Score:    1.3499e+02 GFLOPS 
+Residual Check: PASSED 

@@ -1,0 +1,9 @@
+Node Binding: Process 0 [(p,q)=(0,0)] CPU Cores: 64 - {48-55},{56-63},{16-23},{24-31},{0-7},{8-15},{32-39},{40-47}
+HPL ERROR from process # 0, on line 709 of function HPL_pdinfo:
+>>> Need at least 2 processes for these tests <<<
+
+HPL ERROR from process # 0, on line 1007 of function HPL_pdinfo:
+>>> Illegal input in file HPL.dat. Exiting ... <<<
+
+srun: error: nid005012: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=7834268.0

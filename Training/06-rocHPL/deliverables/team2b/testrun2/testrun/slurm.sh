@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --account=project_462000565
+#SBATCH --job-name=rocHPL_team2b
+#SBATCH --time=10:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=2
+#SBATCH --cpus-per-gpu=7
+#SBATCH --gpus-per-node=2
+#SBATCH --partition=dev-g
+#SBATCH --mem-per-gpu=60g
+
+export MPICH_GPU_SUPPORT_ENABLED=1
+srun --cpu-bind=none run_rochpl -P 1 -Q 2 -N 32768 --NB 512
