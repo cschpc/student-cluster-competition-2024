@@ -18,7 +18,7 @@ The following are the basic steps you need to take as a team:
 
 1. Decide whether you want to use a HPL.dat input file or run HPL via the run command
 2. Navigate into the build directory and prepare a basic Slurm script for running HPL
-    - For an example script, find: [https://docs.lumi-supercomputer.eu/runjobs/scheduled-jobs/lumig-job/](LUMI docs)
+    - For an example script, find: [LUMI docs](https://docs.lumi-supercomputer.eu/runjobs/scheduled-jobs/lumig-job/)
     - Use the wrapper `run_rochpl` for running the program
     - Include the environment variable `MPICH_GPU_SUPPORT_ENABLED=1` in your Slurm script/srun command
     - Include the Slurm flag `--cpu-bind=none` when using the wrapper
