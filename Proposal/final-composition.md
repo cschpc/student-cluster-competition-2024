@@ -28,5 +28,7 @@ We work in close collaboration with our hardware provider, HPE, who will provide
 # Team Information 3  (max 200 words)
 (Is there anything interesting or special about this team you would like to share with us?)
 
-We are the first Finnish team competing on-site at SCC and excited to represent both University of Helsinki and Aalto University.  
+We are the first Finnish team competing on-site at SCC and excited to represent both University of Helsinki and Aalto University. 
+The team is very multidisciplinary, having students from computer science, mathematics, physics, and biology.
+
 Our team name: Team Löyly, represents the hiss and steam generated from water thrown onto sauna rocks. In our opinion, this embodies the Finnish culture and draws a great parallel to the (sometimes) scorching hot servers we will be competing with.
