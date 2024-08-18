@@ -9,9 +9,9 @@ This repository contains the training materials and other relevant documents for
 |15.5.|Applications close|
 |15.6.|Notification of acceptance|
 |5.8.|Deadline of final roster & logo submissions|  
-|TBD|Poster submitted|
-|TBD|HPL Hero run challenge|
-|TBD|IndySCC|
+|16.9.|Poster submitted|
+|7.10.|Final architecture proposal|
+|15.11.-22.11.|SCC@SC|
 
 <details>
 <summary><b>ISC deadlines</b></summary>
@@ -33,6 +33,7 @@ This repository contains the training materials and other relevant documents for
 |Week 19|10.5.|SCC Application, Cloud computing|[Link](Training/04-application_and_cloud)|  
 |Week 25|18.6.|HPCG, SCC Application results and dinner|[Link](Training/05-GPUs_and_HPCG)|
 |Week 30|24.7.|Running and tuning HPL on AMD GPUs|[Link](Training/06-rocHPL)|
+|Week 34|19.8.|The ICON application|[Link]|
 
 ## Official SCC links
 
