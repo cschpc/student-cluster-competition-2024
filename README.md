@@ -33,7 +33,7 @@ This repository contains the training materials and other relevant documents for
 |Week 19|10.5.|SCC Application, Cloud computing|[Link](Training/04-application_and_cloud)|  
 |Week 25|18.6.|HPCG, SCC Application results and dinner|[Link](Training/05-GPUs_and_HPCG)|
 |Week 30|24.7.|Running and tuning HPL on AMD GPUs|[Link](Training/06-rocHPL)|
-|Week 34|19.8.|The ICON application|[Link]|
+|Week 34|19.8.|The ICON application|[Link](Training/07-ICON)|
 
 ## Official SCC links
 
