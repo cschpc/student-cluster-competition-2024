@@ -34,6 +34,7 @@ This repository contains the training materials and other relevant documents for
 |Week 25|18.6.|HPCG, SCC Application results and dinner|[Link](Training/05-GPUs_and_HPCG)|
 |Week 30|24.7.|Running and tuning HPL on AMD GPUs|[Link](Training/06-rocHPL)|
 |Week 34|19.8.|The ICON application|[Link](Training/07-ICON)|
+|Week 36|6.9.|The NAMD application|[Link](Training/08-NAMD)|
 
 ## Official SCC links
 
