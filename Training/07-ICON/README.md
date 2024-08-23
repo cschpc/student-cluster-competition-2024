@@ -27,4 +27,4 @@ Instructions for hands-on can be found in the exercise folder: [exercises](./exe
 
 ## Homework
 
-- Try to build and run the other (CPU or GPU) version of the code that you worked during the training session
+- Try to build and run GPU version of the code. How does the performance compare to the CPU version?
