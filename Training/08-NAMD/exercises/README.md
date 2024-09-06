@@ -1,7 +1,7 @@
-# NAMD
-
-Instructions taken from IndySCC 2022's NAMD exercise, but modified for running with NAMD 3.0 and on Mahti.  
+These instructions are taken from IndySCC 2022's NAMD exercise, but modified for running with NAMD 3.0 and on Mahti.  
 Link to the original exercise: https://gitlab.msu.edu/vermaaslab/indysccnamd/-/blob/main/Homework.md
+
+# NAMD
 
 In this exercise you will be installing NAMD from its source code for Mahti.  
 We will build an "SMP" enabled version, meaning that NAMD during runtime will reserve one process for communication during runtime, which in turn can be useful when scaling up your runs with NAMD.
@@ -10,8 +10,7 @@ We will build an "SMP" enabled version, meaning that NAMD during runtime will re
 
 First, you will need the source code on your system. 
 
-
-Copy the tar file `/scratch/project_2009905/pool/NAMD_3.0_Source.tar.gz` into your working folder on Mahti and untar the following directories there:
+Copy the tar file in `/scratch/project_2009905/pool/NAMD_3.0_Source.tar.gz` into your working folder on Mahti and untar the following directories there:
 
 ```
 tar -zxf NAMD_3.0_Source.tar.gz
@@ -75,16 +74,15 @@ tar -zxf apoa1.tar.gz
 cd apoa1
 ```
 
-Then, create a Slurm script for executing NAMD. For an example Slurm script, go to the [NAMD page on CSC's Docs](https://docs.csc.fi/apps/namd/).  
-Please note, that with your local installation, you don't need to download any extra modules and you must call your local binary, instead of the NAMD module-one.
+Then, create a Slurm script for executing NAMD. You might consult CSC's NAMD documentation for this, just make sure that you use your local installation and not the NAMD module one in Mahti.
 
-Consequently, a typical run command in Mahti for NAMD would be along the lines of:
+Typically, a typical run command with Slurm for NAMD would be along the lines of:
 
 ```
 srun /path/to/your/namd/namd3 +ppn ${namd_threads} apoa1.namd > apoa1.out
 ```
 
-Create a slurm script where you leave one core per MPI task to handle communication, and assign all other cores as namd_threads. Try avoiding hard-coding thread amounts in the script.
+Create a slurm script for this, where you leave one core per MPI task to handle communication, and assign all other cores as "namd_threads". Try avoiding hard-coding these thread amounts in your script.
 
 # Benchmarking task
 
@@ -122,7 +120,7 @@ For this, you need to change the following three options:
 
 1. First, navigate under `Graphics/Representations` 
 2. Delete the default coloring for "All"
-3. Aelect atoms "protein" and choose the Coloring method "SegName", Material "AOChalky" and the Drawing method "NewCartoon"
+3. Select atoms "protein" and choose the Coloring method "SegName", Material "AOChalky" and the Drawing method "NewCartoon"
 4. Next, select atoms "lipid" and choose the Coloring method "Type", Material "AOChalky" and the Drawing method "VDW"
 5. Finally, implement the background "solvent" material like in the following picture:  
 <img src="../img/vmd_solvent_rep.png" alt="drawing" width="250"/>
