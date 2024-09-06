@@ -26,3 +26,11 @@ Instructions for hands-on can be found in the exercise folder: [exercises](./exe
 - Time of the next meeting
 
 ## Homework
+
+## Useful links
+
+- [NAMD user guide](https://www.ks.uiuc.edu/Research/namd/current/ug/)
+- [VMD user guide](https://www.ks.uiuc.edu/Research/vmd/current/ug/)
+- [Docs CSC NAMD page](https://docs.csc.fi/apps/namd/)
+- [VMD tutorial](https://a3s.fi/sscc/VMD_rendering.tgz)
+- [1 ns ApoA1 trajectory](https://a3s.fi/rasmus/apoa1-1ns-traj.tar)
