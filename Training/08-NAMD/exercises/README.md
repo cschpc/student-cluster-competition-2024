@@ -124,3 +124,10 @@ For this, you need to change the following three options:
 4. Next, select atoms "lipid" and choose the Coloring method "Type", Material "AOChalky" and the Drawing method "VDW"
 5. Finally, implement the background "solvent" material like in the following picture:  
 <img src="../img/vmd_solvent_rep.png" alt="drawing" width="250"/>
+
+## Additional tuning options
+
+The default configuration parameters in `apoa1.namd` can be really unoptimized and I/O heavy.  
+Look for example into the variables `outputTiming` and `outputEnergies` on how you might improve this.
+
+NAMD manual (configuration parameters): https://www.ks.uiuc.edu/Research/namd/2.9/ug/node12.html
