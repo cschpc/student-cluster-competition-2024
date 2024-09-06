@@ -23,8 +23,9 @@ Then, you can build the first dependency, the charm++ runtime library with the f
 
 ```
 cd charm-8.0.0
-./build charm++ mpi-linux-x86_64 mpicxx smp --with-production -j8
+./build charm++ mpi-linux-x86_64 <optional options> --with-production -j8
 ```
+Enable the SMP option and MPICXX wrappers as the optional options. See the [Charm++ manual](https://charm.readthedocs.io/en/latest/charm++/manual.html#installing-charm) for details.
 
 This should build Charm++, and get you ready to build NAMD proper, once we have the other preliminaries dealt with.
 NAMD's configuration file is really a tcl script, and so we need a tcl library in place.
@@ -80,16 +81,21 @@ Please note, that with your local installation, you don't need to download any e
 Consequently, a typical run command in Mahti for NAMD would be along the lines of:
 
 ```
-(( namd_threads = SLURM_CPUS_PER_TASK - 1))
-
 srun /path/to/your/namd/namd3 +ppn ${namd_threads} apoa1.namd > apoa1.out
 ```
 
-In this command, you leave one CPU core per MPI task to handle all of the communication, while letting the other cores be assigned as NAMD worker threads.
+Create a slurm script where you leave one core per MPI task to handle communication, and assign all other cores as namd_threads. Try avoiding hard-coding thread amounts in the script.
+
+# Benchmarking task
 
 Now, try two cases and analyze the results as instructed in the section below:
 1. Run it with 1 MPI task and 16 cores per task, utilizing about an eight of a Mahti node 
 2. Run NAMD with 2 MPI tasks and 16 cores per task
+
+Try changing your simulation's cutoff distance from 12 Å to 9 Å.  
+Note that switchdist needs to be smaller than the cutoff.
+
+How does changing the cutoff affect the performance?
 
 # Analyzing the results
 
@@ -119,4 +125,4 @@ For this, you need to change the following three options:
 3. Aelect atoms "protein" and choose the Coloring method "SegName", Material "AOChalky" and the Drawing method "NewCartoon"
 4. Next, select atoms "lipid" and choose the Coloring method "Type", Material "AOChalky" and the Drawing method "VDW"
 5. Finally, implement the background "solvent" material like in the following picture:  
-<img src="../img/vmd_solvent_rep.png" alt="drawing" width="200"/>
+<img src="../img/vmd_solvent_rep.png" alt="drawing" width="250"/>
