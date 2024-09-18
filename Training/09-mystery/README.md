@@ -93,7 +93,7 @@ gpaw install-data $HOME/gpaw-setups
 
 Once installation is complete and PYTHONUSERBASE and PATH are set, one can check the installation information as:
 ```
-paw info
+gpaw info
  ------------------------------------------------------------------------------------------------------------------------------------------------
 | python-3.11.7     /opt/cray/pe/python/3.11.7/bin/python
 ...
