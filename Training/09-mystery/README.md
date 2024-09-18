@@ -1,6 +1,6 @@
 # Mystery application: GPAW
 
-Your task here is to install and run GPAW in LUMI.
+Your task here is to install and run GPAW in LUMI-C.
 
 ## Description
 
