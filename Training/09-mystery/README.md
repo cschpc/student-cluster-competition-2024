@@ -61,7 +61,8 @@ pip3 install --user pytest
 By default, the same compiler and compiler options as when building the Python interpreter are used. In HPC systems it is, however, often recommended to  customize the installation in order to use other libraries, compilers or compiler options. This can accomplished via siteconfig.py file, sample file is provided in siteconfig_example.py. As an example, in order to use icc compiler with extra optimization flags and MKL BLAS library one should add into siteconfig.py:
 ```
 # compiler
-compiler = 'icc'
+mpi =True
+compiler = 'mpiicc'
 extra_compile_args = ['-O2', '-xHost', '-qopenmp']
 extra_link_args = ['-qopenmp']
 
