@@ -36,6 +36,10 @@ This repository contains the training materials and other relevant documents for
 |Week 34|19.8.|The ICON application|[Link](Training/07-ICON)|
 |Week 36|6.9.|The NAMD application|[Link](Training/08-NAMD)|
 |Week 38|18.9.|Mystery application|[Link](Training/09-mystery)|
+|Week 39|25.9.|The MLPerf benchmark|[Link](Training/10-MLPerf)|
+|Week TBD|TBD|Application tuning best practices||
+
+
 ## Official SCC links
 
 - [Supercomputing 24, SCC](https://sc24.supercomputing.org/students/student-cluster-competition/)
