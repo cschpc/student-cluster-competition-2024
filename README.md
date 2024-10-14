@@ -37,8 +37,8 @@ This repository contains the training materials and other relevant documents for
 |Week 36|6.9.|The NAMD application|[Link](Training/08-NAMD)|
 |Week 38|18.9.|Mystery application|[Link](Training/09-mystery)|
 |Week 39|25.9.|The MLPerf benchmark|[Link](Training/10-MLPerf)|
-|Week TBD|TBD|Application tuning best practices||
-
+|Week 42|15.10.|Application tuning and strategy|[Link](Training/11-strategy)|
+|Week TBD||Team Liaison Q&A||
 
 ## Official SCC links
 
