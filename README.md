@@ -13,16 +13,6 @@ This repository contains the training materials and other relevant documents for
 |7.10.|Final architecture proposal|
 |15.11.-22.11.|SCC@SC|
 
-<details>
-<summary><b>ISC deadlines</b></summary>
-
-|Date|Deadline|
-|---|---|
-|8/2024|Applications open|
-|11/2024|Applications close|
-|5/2025|ISC Conference|
-</details>
-
 ## Training schedule
 
 |Week|Date|Topic|Link to content|
@@ -37,18 +27,20 @@ This repository contains the training materials and other relevant documents for
 |Week 36|6.9.|The NAMD application|[Link](Training/08-NAMD)|
 |Week 38|18.9.|Mystery application|[Link](Training/09-mystery)|
 |Week 39|25.9.|The MLPerf benchmark|[Link](Training/10-MLPerf)|
-|Week 42|15.10.|Application tuning and strategy|[Link](Training/11-strategy)|
+|Week 42|15.10.|Competition strategy|[Link](Training/11-strategy)|
+|Week 43|23.10.|System administration, NAMD/ICON|[Link](Training/)|
+|Week 44|29.10.|Reproducibility challenge|[Link](Training/)|
+|Week 45|6.11.|Conference, competition and flights practicalities|[Link](Training/)|
 |Week TBD||Team Liaison Q&A||
 
 ## Official SCC links
 
 - [Supercomputing 24, SCC](https://sc24.supercomputing.org/students/student-cluster-competition/)
 - [Student cluster competition, official site](https://www.studentclustercompetition.us/)
-- [ISC Competition](https://www.hpcadvisorycouncil.com/events/student-cluster-competition/)
 
 ## Team Revontuli & Team Norppa
 
 - [2022 GitHub](https://github.com/cschpc/student-cluster-competition-2022)
 - [2023 Github](https://github.com/cschpc/student-cluster-competition-2023)
-- [IndySCC competition repository](https://drive.google.com/drive/folders/1pouLBmB0p49fvyaN30T1jFP7VT5kMbQR?usp=sharing)
+- [IndySCC competition drive folders](https://drive.google.com/drive/folders/1pouLBmB0p49fvyaN30T1jFP7VT5kMbQR?usp=sharing)
 - [Team Norppa's instagram](https://www.instagram.com/team.norppa/)
