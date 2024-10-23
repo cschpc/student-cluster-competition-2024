@@ -1,0 +1,6 @@
+jupyter
+xarray
+matplotlib
+netcdf4
+cartopy
+pykdtree
