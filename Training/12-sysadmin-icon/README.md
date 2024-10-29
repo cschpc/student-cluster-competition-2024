@@ -1,6 +1,6 @@
 # SCC Training 12
 
-Slides: [Link](./slides)
+Slides: [Link](./main.pdf)
 Date: 23.10.2024  
 
 ## Schedule
