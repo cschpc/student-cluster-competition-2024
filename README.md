@@ -30,8 +30,7 @@ This repository contains the training materials and other relevant documents for
 |Week 42|15.10.|Competition strategy|[Link](Training/11-strategy)|
 |Week 43|23.10.|System administration, NAMD/ICON|[Link](Training/12-sysadmin-icon)|
 |Week 44|29.10.|Reproducibility challenge and mystery benchmarks|[Link](Training/13-repro-mystery)|
-|Week 45|6.11.|Conference, competition and flights practicalities|[Link](Training/)|
-|Week TBD||Team Liaison Q&A||
+|Week 45|6.11.|Conference, competition and flights practicalities|[Link](Training/14-final-training)|
 
 ## Official SCC links
 
