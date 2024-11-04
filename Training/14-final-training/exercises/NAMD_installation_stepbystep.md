@@ -32,9 +32,21 @@ You will find many different versions for NAMD. You should pick the newest one w
 Based on Leopekka's testing, version 3.0.1 will not work (easily) on AMD GPUs, but 3.0 does. I suggest picking version 3.0.
 
 Create a user to the site or log in with your user ín order to download the source code.  
-Copy it to the cluster with the `scp` command.  
+Copy it to the cluster with the `scp` command. For me, when I run it from my work computer, it is something along the lines of:
 
-Steps after this should be performed on the cluster/testing node. Log in to the system and navigate to a directory where you will work.
+```
+scp /home/leopeksa/Downloads/NAMD_3.0_Source.tar.gz  leopeksa@16.1.32.173:/home/leopeksa
+```
+But for you it will be different, based on your OS and environment. Check this accordingly.
+
+Steps after this should be performed on the cluster/testing node. Log in to the system and navigate to a directory where you want to work in. I did the installation into my home directory.
+
+```
+ssh leopeksa@16.1.32.173
+
+[leopeksa@o184i074 ~]$ pwd
+/home/leopeksa
+```
 
 ## 2. Untarring the files
 
