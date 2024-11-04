@@ -21,5 +21,5 @@ Date: 06.11.2024
 
 ## Demos and exercises
 
-Instructions for NAMD installation on the competition cluster can be found in the exercise folder: [exercises](./exercises/NAMD_step_by_step.md
+Instructions for NAMD installation on the competition cluster can be found in the exercise folder: [NAMD installation walkthrough](./exercises/NAMD_installation_stepbystep.md
 )
