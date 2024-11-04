@@ -31,7 +31,7 @@ Pre-built NAMD versions and the source code can be downloaded from [https://www.
 You will find many different versions for NAMD. You should pick the newest one which works. 
 Based on Leopekka's testing, version 3.0.1 will not work (easily) on AMD GPUs, but 3.0 does. I suggest picking version 3.0.
 
-Create a user to the site or log in with your user ín order to download the source code.  
+Create a user to the site or log in with your user in order to download the source code.  
 Copy it to the cluster with the `scp` command. For me, when I run it from my work computer, it is something along the lines of:
 
 ```
@@ -50,9 +50,9 @@ ssh leopeksa@16.1.32.173
 
 ## 2. Untarring the files
 
-NAMD and its base dependency Charm++ come with the source code, in a tarred format (e.g `NAMD_3.0_Source.tar.gz`). You should untar these files so that you can start working with them. If the files ends in `.tar.gz`, use the command `tar -zxf` and if it ends in just `.tar`, use `tar -xf`. 
+After downloading, NAMD and its base dependency Charm++ are in a tarred format (e.g `NAMD_3.0_Source.tar.gz`). You should untar these files so that you can start working with them. If the files ends in `.tar.gz`, you can use the command `tar -zxf` to untar it, and if it ends in just `.tar`, use `tar -xf`. 
 
-The `x` flag specifies extraction from a `.tar` archive, while the `z` flag filters the extraction with `gunzip` to extract from a gzipped file e.g. a file with a `.gz` extension.  
+In the `tar` command, the `x` flag specifies extraction from a `.tar` archive, while the `z` flag filters the extraction with `gunzip` to extract from a gzipped file i.e. a file with a `.gz` extension.  
 The `-f` flag is used to specify the file you are operating on.  
 
 Use the command `tar --help` to see all the relevant options.
@@ -71,36 +71,36 @@ Next, you prepare your environment for compilation by choosing the correct modul
 
 ### 3.1 Working with modules - Choosing a compiler
 
-We are working on a HPE provided Cray environment. It has two main compiling environments. One for the Gnu compiler environment, and one for the proprietary Cray compiling environment. 
+We are working on a HPE provided Cray environment. It has two main compiling environments. One for the GNU compiler environment, and one for the proprietary Cray compiling environment. 
 
-First and foremost, check your currently loaded modules with `module list` or `ml` to see which environment you have present. By default, the Cray compiling environment, `PrgEnv-cray`, should be present. 
+First and foremost, check your currently loaded modules with `module list` or `ml` to see which environment you have on the system. By default, the Cray compiling environment, `PrgEnv-cray`, should be present. 
 
-Then, your chosen compiler environment can be activated by loading the right module:
+Then, your chosen compiler environment can be activated by loading the corresponding module:
 
-`module load PrgEnv-cray` or `module load PrgEnv-gnu`. They can not exist in the environment at the same time, so you should run the `module purge` command inbetween, when you want to change these environments.
+`module load PrgEnv-cray` or `module load PrgEnv-gnu`. They can not exist in the environment at the same time, so you should run the `module purge` command first to clear all of your modules, when you want to change these environments.
 
 ### 3.2 Working with modules - Loading other necessary modules
 
-By default, GNU/CRAY programming environment modules will load a number of other modules to the system for e.g. Interconnect communication, MPI and mathematical libraries. For CPU compilation this is often sufficient.
+By default, GNU/CRAY programming environment modules will load a number of other modules to the system for e.g. Interconnect communication, MPI and mathematical libraries. For simple CPU compilation this is often sufficient.
 
-For us though, we want to compile NAMD for **GPU support**, so we want to include a few extra modules to achieve this. Namely, we want `rocm`, that programs use to implement GPU functionality in their code, we want the environment modules `craype-x86-rome`and `craype-accel-amd-gfx90a` that will set a number of environment variables that allow for compilers to compile architecture-specific-code in a working and more performant way.
+For us though, we want to compile NAMD for **GPU support**, so we want to include a few extra modules to achieve this. Namely, we want `rocm`, that programs use to implement GPU functionality in their code, and we want the environment modules `craype-x86-rome`and `craype-accel-amd-gfx90a` that will set a number of environment variables that allow for compilers to compile architecture-specific-code in a working and more performant way.
 
 On top of these, we also want "FFTW library" support, for the Fast Fourier transformations that NAMD employs during a **Particle Mesh Ewald (PME)** phase in its simulation, that is used to calculate long-range electrostatics (forces outside of cutoff distance) for all particles.
 
-This library support is in the system in the form of a module called `cray-fftw`.
+On our cluster, there is a FFTW library present, through a module called `cray-fftw`.
 
-In total, we thus want to purge old modules and load our specific environment:
+Thus, we want to purge old modules and load our specific environment based on the above points:
 
 ```
 module purge
 module load PrgEnv-gnu
-module load rocm craype-x86-rome craype-accel-amd-gfx90a cray-fftw/3.3.10.8
+module load rocm craype-x86-rome craype-accel-amd-gfx90a cray-fftw
 ```
 
 In Leopekka's tests, he had the following module listing after loading this environment:
 
 ```
-[leopeksa@o184i074 ~]$ ml
+[leopeksa@o184i074 ~]$ module list
 Currently Loaded Modulefiles:
   1) gcc-native/13.2           7) PrgEnv-gnu/8.5.0
   2) craype/2.7.32             8) rocm/6.2.2
@@ -112,8 +112,8 @@ Currently Loaded Modulefiles:
 
 ### 3.3 Setting environment variables for the Cray environment
 
-Typically, C/C++/Fortran codes look for which compiler to use by using the environment variables `CC/CXX/FC`.  
-Let's set these to match the compiler wrappers that are used in the Cray stack (for both GNU and Cray compilers, depending on which module is loaded).
+Typically, C/C++/Fortran codes look for which compiler they will use by using the environment variables `CC/CXX/FC`.  
+Let's set these environment variables to match the compiler wrappers that are used in the Cray stack.
 
 Let's also set the environment variable ROCM_DIR and HIP_PLATFORM that GPU compilation of NAMD requires in our case.
 
@@ -127,11 +127,11 @@ export HIP_PLATFORM=amd
 
 ## 4. Installing dependencies
 
-NAMD requires the charm++ library in the system, that it uses to handle parallelism and load balancing between processes, similarly to MPI/OpenMP in typical modern software. When you download NAMD, Charm++ comes packaged with the download, at the root of NAMD as `charm-8.0.0.tar`. We already untarred the file in step 2, so now we just need to install it. 
+NAMD requires the charm++ library in the system, that it uses to handle parallelism and load balancing between processes, similarly to MPI/OpenMP in typical modern software. When you download NAMD, Charm++ comes packaged with the download, at the root of NAMD as `charm-8.0.0.tar`. We already untarred this folder in step 2, so now we just need to change into the charm++ directory and install it. 
 
 Charm++ uses a build system for configuring and installing itself. Detailed instructions and options for this can be found in the Charm++ manual: [https://charm.rtfd.io/en/latest/charm++/manual.html#installing-charm](https://charm.rtfd.io/en/latest/charm++/manual.html#installing-charm).
 
-We will just go into the Charm++ folder, and compile a basic version of it without SMP support, for a basic multicore Linux system. We achieve this with the following configuration:
+So, we will navigate to the charm++ folder, and will compile a basic version of it *without SMP support*, for a basic multicore Linux system. We achieve this with the following configuration:
 
 ```
 cd charm-8.0.0/
@@ -139,9 +139,10 @@ cd charm-8.0.0/
 cd ..
 ```
 
-Nothing more fancy is needed, since we will just be running NAMD on a singular node, as it performs the best in the singullar node "GPU resident" mode, as we will discuss later.
+Nothing more fancy is needed, since we will just be running NAMD on a singular node, as it performs the best in the single node "GPU resident" mode.
 
-Another base dependency for NAMD is FFTW, which is already installed in the system, and can be loaded into the environment as we did in step 3.2.
+Another base dependency for NAMD is FFTW, but this is already installed in the system, and can be loaded into the environment through a module, as we did in step 3.2.  
+In the GPU version, NAMD will reqquire also ROCm library support, which we bring to our environment through the `rocm` module.
 
 ## 5. Creating the correct installation rules for NAMD
 
@@ -149,11 +150,12 @@ Now, we have a working version of Charm++ and FFTW, and can move into compiling 
 
 To create a "make" script for the environment that NAMD uses for compiling, it needs to know which compilers and compiler flags it will use. For this, it uses "architecture" files that end in `.arch`.
 
-NAMD has a number of pre-defined configurations that can be used to compile NAMD for known systems, like a basic Linux installation. These ready-made configuration scripts can be found in the folder `arch/.`.
+NAMD has a number of pre-defined configurations that can be used to compile NAMD for known compilers and systems, like for a basic Linux installation. These ready-made configuration scripts can be found in the folder `arch/.`Go into the folder and look at some of the examples to get an idea of what these files contain.
 
-Our system uses the wrappers `cc` and `CC` for C/C++ compilation respectively, so we need to set this to our configuration file. We can achieve this by taking one of the readymade files for gnu compilation, e.g. `arch/Linux-x86_64-g++.arch`, and just changing the chosen compiler to be our desired compiler wrappers `cc` and `CC`, instead of the `gcc` and `g++` that are in the file. In this step, you could also change the flags if you want to try tuning the execution. Try first with the default options, and then later try to change these options if you have time. 
+Our system uses the wrappers `cc` and `CC` for C/C++ compilation respectively, so we need to set this to our configuration file. We can achieve this by taking one of the simpler readymade files for gnu compilation, e.g. `arch/Linux-x86_64-g++.arch`, and just changing the chosen compiler to be our desired compiler wrappers `cc` and `CC`, instead of the `gcc` and `g++` that are in the file. 
+During this step, you could also change compiler flags, if you would want to further try to tune execution performance. Try first with the default options, and then later try to change these options if you have time. 
 
-To achieve the correct configuration file, let's copy the file and rename it to `Linux-x86_64-cray-gnu.arch` to reflect our system environment better, and change the compiler names in this file. You can do this manually, or by using the `sed` command in Linux, that is a handy tool for changing text in files on the command line, as we do in the example below.
+To achieve the correct configuration file, let's *copy the file and rename it* to `Linux-x86_64-cray-gnu.arch` to reflect our system environment better. Then, *change the compiler names in this new file*. You can do this manually, or by using the `sed` command in Linux, that is a handy tool you can use to edit text in files from the command line, as we do in the example below.
 
 ```
 cp arch/Linux-x86_64-g++.arch arch/Linux-x86_64-cray-gnu.arch
@@ -161,11 +163,12 @@ sed -i "s/gcc/cc/" arch/Linux-x86_64-cray-gnu.arch
 sed -i "s/g++/CC/" arch/Linux-x86_64-cray-gnu.arch
 ```
 
-Now, you have your configuration ready, and can run the next step, which is to run the executable `configure` in NAMD's root folder, that will take the `.arch` file you specify, and will create a `make` file for this environment, that you can use to compile NAMD.
+Now, you have your configuration ready, and can run the next step, which is to run the executable `configure` in NAMD's root folder, that will take the `.arch` file you specify, and will create a `make` file, that you can use to compile NAMD.
 
-The config executable can take a number of flags and inputs for configuring your NAMD in just the right manner that it finds all libraries in your environment and uses the correct hardware (CPUs and/or GPUs, AMD GPUs or Nvidia GPUs, single-node or multi-node, etc.). You can find all the options available by testing the command `./config --help`.
+This `config` executable can take a number of flags as inputs for configuring your NAMD in just the right manner, where it finds all libraries for your environment and hardware. You can find all the options available by testing the command `./config --help`.
 
-For our system, we are using AMD GPUs, that use the ROCm/HIP GPU programming language, and we want to configure our system to be run on just a single node, with the so-called "GPU-resident" mode, that runs much more efficiently on small clusters. An example configuration with this in mind would be:
+For our system, we are using AMD GPUs, that use the ROCm/HIP GPU programming language. We also want to configure our system to be run on just a single node, with the so-called "GPU-resident" mode, that runs much more efficiently on small clusters.  
+With these two things in mind, an example configuration could be:
 
 ```
 ./config Linux-x86_64-cray-gnu \
@@ -183,7 +186,7 @@ Notice, that the configuration script uses environment variables `ROCM_PATH`, `F
 
 ## 6. Compiling NAMD with `make`
 
-After this, you should now have a folder in your root folder called `Linux-x86_64-cray-gnu`, that contains all the compilation information that NAMD will require. Go to that folder, and run the `make` command there. Use multiple cores during the compilation by using the `-j` flag to speed up the process.
+After this, you should now have a folder in your root folder called `Linux-x86_64-cray-gnu`, that contains all the compilation information that NAMD will require. Go to that folder, and run the `make` command there. Utilize multiple cores during the compilation by using the `-j <N of cores>` flag.
 
 ```
 cd Linux-x86_64-cray-gnu
@@ -197,7 +200,7 @@ Next step is to check that you can run simulations on the cluster with GPUs. For
 
 ## 8. Document your steps
 
-In the terminal, you can see your command history with the `history <n.o of commands>`.
+In the terminal, you can see your command history with the `history <Number of commands>`.
 
 Run the command to see the commands you did to achieve a working installation, and save the listing to a file, or into GitHub, so that you can easily reproduce the process or to show it to a judge.
 
