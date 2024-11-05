@@ -55,7 +55,14 @@ Number of I/O and restart processes are specified in `parallel_nml` namelist:
  num_restart_procs = 2
 /
 ```
-The division into worker and I/O processes is shown in the LOG output:
+The division into worker and I/O processes is shown in the LOG output. As an example,
+with above settings a batch job like (note that we have reserved here tasks also for I/O)
+```
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=10
+#SBATCH --gpus-per-node=8
+```
+would show in the LOG output following:
 ...
 ICON runs on 20 mpi processes.
 ...
@@ -63,5 +70,16 @@ ICON runs on 20 mpi processes.
  set_mpi_work_communicators:  0 <=  0  test procs <  0  <=  16  work procs <  16  <=  2  io procs <  18  <=  2  restart procs <  20  <=  0  pref procs <  20  <=  0  radario procs <  20
 ```
 
+Slurm places by default the processes to the nodes in blocks, i.e. in the above example processes 0-9 would be in the first node, and processes 10-19 in the second node. Thus, there would be 10 workers in the first node, but as there are only 8 GPUs, some workers would be sharing the GPU. Similarly, on the second node, there would be only 6 workers, but 8 GPUs, and as the I/O and restart processes won't utilize GPUs, some GPUs would be idle.
 
+In order to better balance worker, I/O, and restart processes, one can specify different process distribution for Slurm with `-m` option for `srun`. Here, "cyclic" would be most appropriate, i.e. placing the consecutive processes to consecutive nodes in round-robin fashion. In the above example, process 0 would be in the first node, process 1 in the second node, etc. In the context of ICON runscript, the option would go to `START` variable, i.e.
+```
+...
+# how to start the icon model
+# ---------------------------
+export START="srun  -m cyclic /scratch/project_462000565/jenkovaa/icon-scc24/run/run_wrapper/lumi_gpu.sh"
+...
+```
+
+In small scale runs asynchronous I/O does not look really beneficial, as the time spent in I/O is in any case very small. Still, discussing in the interview the possibility of asynchronous I/O might earn few extra points, even better if one can show results whther it is beneficial or not with the particular competition task.
 
