@@ -207,3 +207,23 @@ Run the command to see the commands you did to achieve a working installation, a
 For me, the command looks like:
 
 <img src="../img/NAMD_installation_history.png" alt="installation history" width="600">
+
+
+## X. Installing a CPU version of NAMD
+
+For building a version of NAMD utilizing only CPUs, follow similar instructions, but change the building options of charm++ and the config options for NAMD in the following fashion:
+
+```
+./build charm++ mpi-linux-x86_64 smp -j16 --with-production
+```
+
+And,
+
+```
+./config Linux-x86_64-cray-gnu \
+    --charm-arch mpi-linux-x86_64-smp \
+    --with-fftw3 \
+    --fftw-prefix $FFTW_ROOT
+```
+
+Since now, we don't want to enable only "multicore" version of charm, which is only intended for single-node use (source: Charm++ documentation) and we also want to omit the lines for HIP compilation in the configuration process for NAMD.
