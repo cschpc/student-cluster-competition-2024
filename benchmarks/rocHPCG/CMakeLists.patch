@@ -1,0 +1,20 @@
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 8867ff9..aba5ff4 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -162,6 +162,7 @@ endif()
+ 
+ # MPI
+ if(HPCG_MPI)
++  target_include_directories(rochpcg PRIVATE "$ENV{CRAY_MPICH_DIR}/include")
+   target_link_libraries(rochpcg PRIVATE MPI::MPI_CXX libnuma::libnuma)
+ else()
+   target_compile_definitions(rochpcg PRIVATE HPCG_NO_MPI)
+@@ -170,6 +171,7 @@ endif()
+ # OpenMP
+ if(HPCG_OPENMP)
+   target_link_libraries(rochpcg PRIVATE OpenMP::OpenMP_CXX)
++  target_link_libraries(rochpcg PRIVATE "-lcraymp")
+ else()
+   target_compile_definitions(rochpcg PRIVATE HPCG_NO_OPENMP)
+ endif()
