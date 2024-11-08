@@ -1,0 +1,12 @@
+index 81f4e84..309fa32 100644
+--- a/flow-monitor/src/Lib.cpp
++++ b/flow-monitor/src/Lib.cpp
+@@ -43,6 +43,7 @@
+ #include <cassert>
+ #include <errno.h>
+ 
++#define _STAT_VER 3
+ #define DPRINTF(...) fprintf(stderr, __VA_ARGS__)
+ // #define DPRINTF(...)
+ #define MONITOR_ID "MONITOR"
+
