@@ -51,35 +51,48 @@ Number of I/O and restart processes are specified in `parallel_nml` namelist:
 ```
 &parallel_nml
 ...
- num_io_procs = 2
- num_restart_procs = 2
+ num_io_procs = 1
+ num_restart_procs = 1
 /
 ```
 The division into worker and I/O processes is shown in the LOG output. As an example,
-with above settings a batch job like (note that we have reserved here tasks also for I/O)
+with above settings a batch job like 
 ```
 #SBATCH --nodes=2
-#SBATCH --ntasks-per-node=10
-#SBATCH --gpus-per-node=8
+#SBATCH --ntasks-per-node=32
+#SBATCH --cpus-per-task=2
 ```
 would show in the LOG output following:
 ...
-ICON runs on 20 mpi processes.
+ICON runs on 64 mpi processes.
 ...
- set_mpi_work_communicators: Number of procs for test: 0, work: 16, I/O: 2, Restart: 2, Prefetching: 0
- set_mpi_work_communicators:  0 <=  0  test procs <  0  <=  16  work procs <  16  <=  2  io procs <  18  <=  2  restart procs <  20  <=  0  pref procs <  20  <=  0  radario procs <  20
+ set_mpi_work_communicators: Number of procs for test: 0, work: 62, I/O: 1, Restart: 1, Prefetching: 0
+ set_mpi_work_communicators:  0 <=  0  test procs <  0  <=  62  work procs <  62  <=  1  io procs <  63  <=  1  restart procs <  64  <=  0  pref procs <  64  <=  0  radario procs <  64
+
 ```
 
-Slurm places by default the processes to the nodes in blocks, i.e. in the above example processes 0-9 would be in the first node, and processes 10-19 in the second node. Thus, there would be 10 workers in the first node, but as there are only 8 GPUs, some workers would be sharing the GPU. Similarly, on the second node, there would be only 6 workers, but 8 GPUs, and as the I/O and restart processes won't utilize GPUs, some GPUs would be idle.
+Slurm places by default the processes to the nodes in blocks, i.e. in the above example processes 0-31 would be in the first node, and processes 32-63 in the second node. Thus, there would be 32 workers in the first node, but only 30 workers in the second node. 
 
 In order to better balance worker, I/O, and restart processes, one can specify different process distribution for Slurm with `-m` option for `srun`. Here, "cyclic" would be most appropriate, i.e. placing the consecutive processes to consecutive nodes in round-robin fashion. In the above example, process 0 would be in the first node, process 1 in the second node, etc. In the context of ICON runscript, the option would go to `START` variable, i.e.
+
 ```
 ...
 # how to start the icon model
 # ---------------------------
-export START="srun  -m cyclic /scratch/project_462000565/jenkovaa/icon-scc24/run/run_wrapper/lumi_gpu.sh"
+export START="srun  -m cyclic" 
 ...
 ```
 
-In small scale runs asynchronous I/O does not look really beneficial, as the time spent in I/O is in any case very small. Still, discussing in the interview the possibility of asynchronous I/O might earn few extra points, even better if one can show results whther it is beneficial or not with the particular competition task.
+Benefit of asynchronous I/O, and whether it is useful only for model output, only for 
+restart/checkpointing, or for both should always be investigated. Runscripts might have varying settings for the amount of timing information, and restart writes
+(`write_restart`) is not shown by default. One can increase timing information by adding/modifying `timers_level` variable in `&run_nml` namelist:
+```
+&run_nml
+ num_lev          = 47          ! number of full levels
+...
+ output           = 'nml'
+ timers_level        = 10   
+ msg_level        = 15          ! level of details report during integration 
+...
+```
 
