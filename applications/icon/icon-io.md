@@ -96,3 +96,21 @@ restart/checkpointing, or for both should always be investigated. Runscripts mig
 ...
 ```
 
+For GPU calculations, there are unused CPU cores which can be used for I/O. For a single node calculation, one could for example launch 4 MPI tasks, and use 1 process for model output, and one for restart/checkpointing. The `lumi_gpu.sh` is also needed for assigning the worker and I/O processes correctly to GPUs. Syntax of the wrapper is `-n total_procs -o ioprocs -e executable`, which `make_runscript` tries to handle automatically. The following runscrkpt snippets show some relevant settings:
+```
+...
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=4  # two extra tasks for I/O
+...
+export START="srun /home/jenkovaa/icon-scc24/config/csc/exec.lumi.container.cce /home/jenkovaa/icon-scc24/run/run_wrapper/lumi_gpu.sh -n ${SLURM_NTASKS} -o $((SLURM_NTASKS - SLURM_NNODES * 2)) -e"
+...
+&parallel_nml
+ ...
+ num_io_procs     = 1
+ num_restart_procs     = 1
+/
+
+```
+
+For multinode runs one should probably use one I/O process per node, i.e. `--ntasks-per-node=3`, and in case of three nodes either two procs for model output and one for retsrat (or vice versa, investigate which performs better).
+
