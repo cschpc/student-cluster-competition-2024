@@ -19,7 +19,6 @@ make -j8 2>&1 | tee loki.make
 Due to serious bugs in CCE 18.0.0, GPU version needs to be build
 within a singularity container that has CCE 17.0.1 installed.
 
-
 Note: the container is not included in the repo, so the container wrapper
 `exec.lumi.container.cce` might need to be modified (the `container` variable).
 
@@ -47,9 +46,6 @@ ln -sf ${icon_dir}/vertical_coord_tables
 
 ## Running
 
-NOTE: Due to incompatibility between MPI inside the container and in the host (libpmi),
-only single GPU can be utilized for time being. 
-
 Create a runscript under corresponding build directory. `name_of_exp` is the part of the filename after `exp.` i.e. `nh_dcmip_tc_52_r2b4`
 ```
 ./make_runscript name_of_exp
@@ -62,9 +58,20 @@ Look for anything with `icon_data` in the name of location.
 The GPU version needs to be run under the container, but runscript creation mechanism
 (defined in `icon_scc24/run/create_target_header`) should take care of that, i.e. the `START` in runscript should ne something like:
 ```
-export START="srun /home/jenkovaa/icon-scc24/config/csc/exec.lumi.container.cce /home/jenkovaa/icon-scc24/run/run_wrapper/lumi_gpu.sh"
+export START="srun /home/jenkovaa/icon-scc24/config/csc/exec.lumi.container.cce /home/jenkovaa/icon-scc24/run/run_wrapper/lumi_gpu.sh -n ${SLURM_NTASKS} -o $((SLURM_NTASKS - SLURM_NNODES * 2)) -e"
 ```
-The `lumi_gpu.sh` wrapper is needed so that each MPI process will use different GPU.
+The `lumi_gpu.sh` wrapper is needed so that each MPI process will use different GPU, and it is needed also for I/O processes, see [icon-io.md](icon-md.io) for more details.
+
+
+Note: some `ihadv_tracer` options seem to be unstable on GPUs, at least `ihadv_tracer = 52` is known to cause problems. If you get runtime error, try to change that to 20 (it should not affect the physics, just a algorithm, so it is probably allowed to change it):
+```
+&transport_nml
+ tracer_names     = 'hus','clw','cli','qr','qs','qg'
+ ivadv_tracer     =    3 ,   3 ,   3 ,  3 ,  3 ,  3
+ itype_hlimit     =    3 ,   4 ,   4 ,  4 ,  4 ,  4
+ ihadv_tracer     =   20 ,   2 ,   2 ,  2 ,  2 ,  2
+/
+```
 
 Once all the data paths are correct, runscript can be submitted to Slurm:
 ```
