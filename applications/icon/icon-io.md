@@ -55,6 +55,15 @@ Number of I/O and restart processes are specified in `parallel_nml` namelist:
  num_restart_procs = 1
 /
 ```
+Also, asynchronous restart might need to be specified in in `io_nml` namelist:
+```
+&io_nml
+...
+restart_write_mode = 'dedicated procs multifile'  ! output is split into multiple files
+!restart_write_mode = 'async'  ! output is in a single file
+```
+(Note: if `restart_write_mode is not specified, default is 'async'). 
+
 The division into worker and I/O processes is shown in the LOG output. As an example,
 with above settings a batch job like 
 ```
