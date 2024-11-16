@@ -37,14 +37,15 @@ It is important to note that these are **runtime** settings, i.e. you need to pu
 ...
 #SBATCH --exclusive
 
-export MPICH_GPU_SUPPORT_ENABLED=1
-
-export UCX_TLS=self,posix,rc
-
 module unload cray-mpich
 module load cray-mpich-ucx 
 
+export MPICH_GPU_SUPPORT_ENABLED=1
+export UCX_TLS=self,posix,rc
+
 ...
 ```
+
+Unfortunaly UCX + "posix" intranode transport degragades performance, and one obtains only ~38 TFLOP/s in a single node (compared to ~40 TFLOP/s with the default `cray-mpich`).
 
 
