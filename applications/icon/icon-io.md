@@ -72,6 +72,7 @@ with above settings a batch job like
 #SBATCH --cpus-per-task=2
 ```
 would show in the LOG output following:
+```
 ...
 ICON runs on 64 mpi processes.
 ...
