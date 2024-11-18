@@ -7,8 +7,9 @@ Create a virtual environment to install CM into
 python3 -m venv cm
 source cm/bin/activate
 ```
-Update pip
+Update pip and load python
 ```
+module load cray-python/3.11.7
 python -m pip install --upgrade pip
 ```
 Now install CM
