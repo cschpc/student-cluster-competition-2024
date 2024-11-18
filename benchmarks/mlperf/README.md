@@ -23,7 +23,7 @@ export CM_SCRIPT_EXTRA_CMD="--adr.python.name=mlperf"
 ```
 Performance Estimation for Offline Scenario
 ```
-cm run script --tags=run-mlperf,inference,_find-performance,_r4.1-dev,_short,_scc24-main \
+cm run script --tags=run-mlperf,inference,_find-performance,_r4.1-dev,_short,_scc24-base \
    --model=sdxl \
    --implementation=reference \
    --framework=pytorch \
