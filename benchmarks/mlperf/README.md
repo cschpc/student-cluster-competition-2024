@@ -39,7 +39,8 @@ cm run script --tags=run-mlperf,inference,_find-performance,_r4.1-dev,_short,_sc
 To get the main variant, use ```_scc24-main``` instead of ```_scc24-base```
 #### Offline
 ```
-export BENCHMARK=<mlperf-base>
+export BENCHMARK=mlperf
+export NUMBER=1
 echo `date -u` > cert-${NUMBER}-${BENCHMARK}.tstamps
 cm run script --tags=run-mlperf,inference,_r4.1-dev,_short,_scc24-base \
    --model=sdxl \
