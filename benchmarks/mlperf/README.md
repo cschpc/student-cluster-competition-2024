@@ -39,6 +39,8 @@ cm run script --tags=run-mlperf,inference,_find-performance,_r4.1-dev,_short,_sc
 To get the main variant, use ```_scc24-main``` instead of ```_scc24-base```
 #### Offline
 ```
+export BENCHMARK=<mlperf-base>
+echo `date -u` > cert-${NUMBER}-${BENCHMARK}.tstamps
 cm run script --tags=run-mlperf,inference,_r4.1-dev,_short,_scc24-base \
    --model=sdxl \
    --implementation=reference \
@@ -50,6 +52,7 @@ cm run script --tags=run-mlperf,inference,_r4.1-dev,_short,_scc24-base \
    --quiet \
    --precision=float16 \
    --env.CM_GENERIC_SYS_UTIL_IGNORE_MISSING_PACKAGE=yes
+echo `date -u` >> cert-${NUMBER}-${BENCHMARK}.tstamps
 ```
 ### Generate actual submission tree
 ```
