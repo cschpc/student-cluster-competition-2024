@@ -60,7 +60,7 @@ The GPU version needs to be run under the container, but runscript creation mech
 ```
 export START="srun /home/jenkovaa/icon-scc24/config/csc/exec.lumi.container.cce /home/jenkovaa/icon-scc24/run/run_wrapper/lumi_gpu.sh -n ${SLURM_NTASKS} -o $((SLURM_NTASKS - SLURM_NNODES * 2)) -e"
 ```
-The `lumi_gpu.sh` wrapper is needed so that each MPI process will use different GPU, and it is needed also for I/O processes, see [icon-io.md](icon-md.io) for more details.
+The `lumi_gpu.sh` wrapper is needed so that each MPI process will use different GPU, and it is needed also for I/O processes, see [icon-io.md](icon-io.md) for more details.
 
 
 Note: some `ihadv_tracer` options seem to be unstable on GPUs, at least `ihadv_tracer = 52` is known to cause problems. If you get runtime error, try to change that to 20 (it should not affect the physics, just a algorithm, so it is probably allowed to change it):
