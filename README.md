@@ -13,6 +13,12 @@ This repository contains the training materials and other relevant documents for
 |7.10.|Final architecture proposal|
 |15.11.-22.11.|SCC@SC|
 
+## Competition
+
+- [Tasks](https://kannu.csc.fi/s/ySGZPEaR6XNTKAt)
+- [Interviews](competition/interviews.md)
+
+
 ## Training schedule
 
 |Week|Date|Topic|Link to content|
